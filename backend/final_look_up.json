@@ -1,0 +1,4366 @@
+{
+   "PLAC8": {
+      "gene_name": "PLAC8",
+      "tier": "tier-1",
+      "lfc_mean": 3.473428,
+      "proba_m1": 0.9242,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q9UHV8",
+      "protein_name": "Galactoside-binding soluble lectin 13",
+      "alternative_names": [
+         "Galectin-13",
+         "Gal-13",
+         "Placental tissue protein 13",
+         "PP13",
+         "Placental protein 13"
+      ],
+      "function": "FUNCTION: Binds beta-galactoside and lactose. Strong inducer of T-cell apoptosis (PubMed:10527825, PubMed:19497882). Has hemagglutinating activity towards chicken erythrocytes (PubMed:29343868). Acts as an activator of ferroptosis: secreted by ferroptotic cells and acts by reducing localization of SLC7A11 at the plasma membrane (PubMed:40246981). {ECO:0000269|PubMed:10527825, ECO:0000269|PubMed:19497882, ECO:0000269|PubMed:29343868, ECO:0000269|PubMed:40246981}.",
+      "sequence_length": 139,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:29343868}. Nucleus matrix {ECO:0000269|PubMed:29343868}. Secreted {ECO:0000269|PubMed:40246981}. Note=Secreted by ferroptotic cells. {ECO:0000269|PubMed:40246981}.",
+      "pdb_structures": [
+         "5XG7",
+         "5XG8",
+         "5Y03",
+         "6A62",
+         "6A63",
+         "6A64",
+         "6A65",
+         "6A66",
+         "6KJW",
+         "6KJX",
+         "6KJY"
+      ]
+   },
+   "INSIG1": {
+      "gene_name": "INSIG1",
+      "tier": "tier-1",
+      "lfc_mean": 3.258222,
+      "proba_m1": 0.9566,
+      "scenario": "A",
+      "regulating_tf": "SREBF2",
+      "soldier_genes": [
+         {
+            "gene_name": "STARD4",
+            "uniprot_id": "Q96DR4",
+            "protein_name": "StAR-related lipid transfer protein 4",
+            "alternative_names": [
+               "START domain-containing protein 4",
+               "StARD4"
+            ],
+            "sequence_length": 205,
+            "pdb_structures": [
+               "6L1D",
+               "6L1M"
+            ]
+         },
+         {
+            "gene_name": "LDLR",
+            "uniprot_id": "P01130",
+            "protein_name": "Low-density lipoprotein receptor",
+            "alternative_names": [
+               "LDL receptor"
+            ],
+            "sequence_length": 860,
+            "pdb_structures": [
+               "1AJJ",
+               "1D2J",
+               "1F5Y",
+               "1F8Z",
+               "1HJ7",
+               "1HZ8",
+               "1I0U",
+               "1IJQ",
+               "1LDL",
+               "1LDR",
+               "1N7D",
+               "1XFE",
+               "2FCW",
+               "2KRI",
+               "2LGP",
+               "2M7P",
+               "2MG9",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SO6",
+               "4NE9",
+               "5OY9",
+               "5OYL",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO"
+            ]
+         },
+         {
+            "gene_name": "PCYT2",
+            "uniprot_id": "Q99447",
+            "protein_name": "Ethanolamine-phosphate cytidylyltransferase",
+            "alternative_names": [
+               "EC 2.7.7.14",
+               "CTP:phosphoethanolamine cytidylyltransferase",
+               "Phosphorylethanolamine transferase"
+            ],
+            "sequence_length": 389,
+            "pdb_structures": [
+               "3ELB",
+               "4XSV"
+            ]
+         },
+         {
+            "gene_name": "EBP",
+            "uniprot_id": "Q15125",
+            "protein_name": "3-beta-hydroxysteroid-Delta",
+            "alternative_names": [
+               "8",
+               "7",
+               "EC 5.3.3.5",
+               "Cholestenol Delta-isomerase",
+               "Cholesterol-5,6-epoxide hydrolase subunit EBP",
+               "EC 3.3.2.11",
+               "Delta(8",
+               "7",
+               "D8-D7 sterol isomerase",
+               "Emopamil-binding protein"
+            ],
+            "sequence_length": 230,
+            "pdb_structures": [
+               "6OHT",
+               "6OHU",
+               "8W0R",
+               "8W0S"
+            ]
+         },
+         {
+            "gene_name": "SQLE",
+            "uniprot_id": "Q14534",
+            "protein_name": "Squalene monooxygenase",
+            "alternative_names": [
+               "EC 1.14.14.17",
+               "Squalene epoxidase",
+               "SE"
+            ],
+            "sequence_length": 574,
+            "pdb_structures": [
+               "6C6N",
+               "6C6P",
+               "6C6R"
+            ]
+         },
+         {
+            "gene_name": "FDFT1",
+            "uniprot_id": "P37268",
+            "protein_name": "Squalene synthase",
+            "alternative_names": [
+               "SQS",
+               "SS",
+               "EC 2.5.1.21",
+               "FPP:FPP farnesyltransferase",
+               "Farnesyl-diphosphate farnesyltransferase",
+               "Farnesyl-diphosphate farnesyltransferase 1"
+            ],
+            "sequence_length": 417,
+            "pdb_structures": [
+               "1EZF",
+               "3ASX",
+               "3LEE",
+               "3Q2Z",
+               "3Q30",
+               "3V66",
+               "3VJ8",
+               "3VJ9",
+               "3VJA",
+               "3VJB",
+               "3VJC",
+               "3WC9",
+               "3WCD",
+               "3WCF",
+               "3WCH",
+               "3WCI",
+               "3WCJ",
+               "3WCL",
+               "3WCM",
+               "3WEF",
+               "3WEG",
+               "3WEH",
+               "3WEI",
+               "3WEJ",
+               "3WEK",
+               "3WSA",
+               "6PYJ",
+               "6PYV",
+               "6PYW",
+               "6PZ5",
+               "8WTQ",
+               "8WTR"
+            ]
+         },
+         {
+            "gene_name": "ACLY",
+            "uniprot_id": "P53396",
+            "protein_name": "ATP-citrate synthase",
+            "alternative_names": [
+               "EC 2.3.3.8",
+               "ATP-citrate (pro-S-",
+               "ACL",
+               "Citrate cleavage enzyme"
+            ],
+            "sequence_length": 1101,
+            "pdb_structures": [
+               "3MWD",
+               "3MWE",
+               "3PFF",
+               "5TDE",
+               "5TDF",
+               "5TDM",
+               "5TDZ",
+               "5TE1",
+               "5TEQ",
+               "5TES",
+               "5TET",
+               "6HXH",
+               "6HXK",
+               "6HXL",
+               "6HXM",
+               "6O0H",
+               "6POE",
+               "6POF",
+               "6QFB",
+               "6UI9",
+               "6UIA",
+               "6UUW",
+               "6UUZ",
+               "6UV5",
+               "6Z2H",
+               "7LIW",
+               "7LJ9",
+               "7LLA",
+               "7RIG",
+               "7RKZ",
+               "7RMP",
+               "8G1E",
+               "8G1F",
+               "8G5C",
+               "8G5D"
+            ]
+         },
+         {
+            "gene_name": "PON1",
+            "uniprot_id": "P27169",
+            "protein_name": "Serum paraoxonase/arylesterase 1",
+            "alternative_names": [
+               "PON 1",
+               "EC 3.1.1.2",
+               "EC 3.1.1.81",
+               "EC 3.1.8.1",
+               "Aromatic esterase 1",
+               "A-esterase 1",
+               "K-45",
+               "Serum aryldialkylphosphatase 1"
+            ],
+            "sequence_length": 355,
+            "pdb_structures": [
+               "1V04"
+            ]
+         },
+         {
+            "gene_name": "NPC1L1",
+            "uniprot_id": "Q9UHC9",
+            "protein_name": "NPC1-like intracellular cholesterol transporter 1",
+            "alternative_names": [
+               "NPC1L1",
+               "Niemann-Pick C1-like protein 1"
+            ],
+            "sequence_length": 1359,
+            "pdb_structures": [
+               "3QNT",
+               "7DF8",
+               "7DFW",
+               "7DFZ",
+               "7N4U",
+               "7N4V",
+               "7N4X"
+            ]
+         },
+         {
+            "gene_name": "PCSK9",
+            "uniprot_id": "Q8NBP7",
+            "protein_name": "Proprotein convertase subtilisin/kexin type 9",
+            "alternative_names": [
+               "EC 3.4.21.-",
+               "Neural apoptosis-regulated convertase 1",
+               "NARC-1",
+               "Proprotein convertase 9",
+               "PC9",
+               "Subtilisin/kexin-like protease PC9"
+            ],
+            "sequence_length": 692,
+            "pdb_structures": [
+               "2P4E",
+               "2PMW",
+               "2QTW",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "2XTJ",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3H42",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SQO",
+               "4K8R",
+               "4NE9",
+               "4NMX",
+               "4OV6",
+               "5OCA",
+               "5VL7",
+               "5VLA",
+               "5VLH",
+               "5VLK",
+               "5VLL",
+               "5VLP",
+               "6E4Y",
+               "6E4Z",
+               "6MV5",
+               "6OLZ",
+               "6OM0",
+               "6OM7",
+               "6U26",
+               "6U2F",
+               "6U2N",
+               "6U2P",
+               "6U36",
+               "6U38",
+               "6U3I",
+               "6U3X",
+               "6XIB",
+               "6XIC",
+               "6XID",
+               "6XIE",
+               "6XIF",
+               "7ANQ",
+               "7KEV",
+               "7KFA",
+               "7S5G",
+               "7S5H",
+               "8FPO",
+               "8FPQ",
+               "8FVL",
+               "8FVM",
+               "8FVN",
+               "8FVO",
+               "8FVP",
+               "8FVQ",
+               "8VDV",
+               "8WFR"
+            ]
+         }
+      ],
+      "uniprot_id": "O15503",
+      "protein_name": "Insulin-induced gene 1 protein",
+      "alternative_names": [
+         "INSIG-1"
+      ],
+      "function": "FUNCTION: Oxysterol-binding protein that mediates feedback control of cholesterol synthesis by controlling both endoplasmic reticulum to Golgi transport of SCAP and degradation of HMGCR (PubMed:12202038, PubMed:12535518, PubMed:16168377, PubMed:16399501, PubMed:16606821, PubMed:32322062). Acts as a negative regulator of cholesterol biosynthesis by mediating the retention of the SCAP-SREBP complex in the endoplasmic reticulum, thereby blocking the processing of sterol regulatory element-binding proteins (SREBPs) SREBF1/SREBP1 and SREBF2/SREBP2 (PubMed:12202038, PubMed:16399501, PubMed:26311497, PubMed:32322062). Binds oxysterol, including 25-hydroxycholesterol, regulating interaction with SCAP and retention of the SCAP-SREBP complex in the endoplasmic reticulum (PubMed:32322062). In presence of oxysterol, interacts with SCAP, retaining the SCAP-SREBP complex in the endoplasmic reticulum, thereby preventing SCAP from escorting SREBF1/SREBP1 and SREBF2/SREBP2 to the Golgi (PubMed:15899885, PubMed:32322062). Sterol deprivation or phosphorylation by PCK1 reduce oxysterol-binding, disrupting the interaction between INSIG1 and SCAP, thereby promoting Golgi transport of the SCAP-SREBP complex, followed by processing and nuclear translocation of SREBF1/SREBP1 and SREBF2/SREBP2 (PubMed:26311497, PubMed:32322062). Also regulates cholesterol synthesis by regulating degradation of HMGCR: initiates the sterol-mediated ubiquitin-mediated endoplasmic reticulum-associated degradation (ERAD) of HMGCR via recruitment of the reductase to the ubiquitin ligases AMFR/gp78 and/or RNF139 (PubMed:12535518, PubMed:16168377, PubMed:22143767). Also regulates degradation of SOAT2/ACAT2 when the lipid levels are low: initiates the ubiquitin-mediated degradation of SOAT2/ACAT2 via recruitment of the ubiquitin ligases AMFR/gp78 (PubMed:28604676). {ECO:0000269|PubMed:12202038, ECO:0000269|PubMed:12535518, ECO:0000269|PubMed:15899885, ECO:0000269|PubMed:16168377, ECO:0000269|PubMed:16399501, ECO:0000269|PubMed:16606821, ECO:0000269|PubMed:22143767, ECO:0000269|PubMed:26311497, ECO:0000269|PubMed:28604676, ECO:0000269|PubMed:32322062}.",
+      "sequence_length": 277,
+      "subcellular_location": "SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000269|PubMed:12202038, ECO:0000269|PubMed:32322062}; Multi-pass membrane protein {ECO:0000269|PubMed:12202038}.",
+      "pdb_structures": [
+         "4J81"
+      ]
+   },
+   "SAA1": {
+      "gene_name": "SAA1",
+      "tier": "tier-1",
+      "lfc_mean": 3.0114276,
+      "proba_m1": 0.9732,
+      "scenario": "A",
+      "regulating_tf": "CEBPA",
+      "soldier_genes": [
+         {
+            "gene_name": "SCD",
+            "uniprot_id": "O00767",
+            "protein_name": "Stearoyl-CoA desaturase",
+            "alternative_names": [
+               "hSCD1",
+               "EC 1.14.19.1",
+               "Acyl-CoA desaturase",
+               "Delta(9",
+               "Delta-9 desaturase",
+               "Fatty acid desaturase"
+            ],
+            "sequence_length": 359,
+            "pdb_structures": [
+               "4ZYO"
+            ]
+         },
+         {
+            "gene_name": "LDLR",
+            "uniprot_id": "P01130",
+            "protein_name": "Low-density lipoprotein receptor",
+            "alternative_names": [
+               "LDL receptor"
+            ],
+            "sequence_length": 860,
+            "pdb_structures": [
+               "1AJJ",
+               "1D2J",
+               "1F5Y",
+               "1F8Z",
+               "1HJ7",
+               "1HZ8",
+               "1I0U",
+               "1IJQ",
+               "1LDL",
+               "1LDR",
+               "1N7D",
+               "1XFE",
+               "2FCW",
+               "2KRI",
+               "2LGP",
+               "2M7P",
+               "2MG9",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SO6",
+               "4NE9",
+               "5OY9",
+               "5OYL",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO"
+            ]
+         },
+         {
+            "gene_name": "STAT3",
+            "uniprot_id": "P40763",
+            "protein_name": "Signal transducer and activator of transcription 3",
+            "alternative_names": [
+               "Acute-phase response factor"
+            ],
+            "sequence_length": 770,
+            "pdb_structures": [
+               "5AX3",
+               "5U5S",
+               "6NJS",
+               "6NUQ",
+               "6QHD",
+               "6TLC"
+            ]
+         },
+         {
+            "gene_name": "SLC10A1",
+            "uniprot_id": "Q14973",
+            "protein_name": "Hepatic sodium/bile acid cotransporter",
+            "alternative_names": [
+               "Cell growth-inhibiting gene 29 protein",
+               "Na(+",
+               "Na(+",
+               "Sodium/taurocholate cotransporting polypeptide",
+               "NTCP",
+               "Solute carrier family 10 member 1",
+               "SLC10A1"
+            ],
+            "sequence_length": 349,
+            "pdb_structures": [
+               "7FCI",
+               "7PQG",
+               "7PQQ",
+               "7VAD",
+               "7VAG",
+               "7WSI",
+               "7ZYI",
+               "8HRX",
+               "8HRY",
+               "8RQF"
+            ]
+         },
+         {
+            "gene_name": "SERPINC1",
+            "uniprot_id": "P01008",
+            "protein_name": "Antithrombin-III",
+            "alternative_names": [
+               "ATIII",
+               "Serpin C1"
+            ],
+            "sequence_length": 464,
+            "pdb_structures": [
+               "1ANT",
+               "1ATH",
+               "1AZX",
+               "1BR8",
+               "1DZG",
+               "1DZH",
+               "1E03",
+               "1E04",
+               "1E05",
+               "1JVQ",
+               "1LK6",
+               "1NQ9",
+               "1OYH",
+               "1R1L",
+               "1SR5",
+               "1T1F",
+               "1TB6",
+               "2ANT",
+               "2B4X",
+               "2B5T",
+               "2BEH",
+               "2GD4",
+               "2HIJ",
+               "2ZNH",
+               "3EVJ",
+               "3KCG",
+               "4EB1"
+            ]
+         },
+         {
+            "gene_name": "PCK2",
+            "uniprot_id": "Q16822",
+            "protein_name": "Phosphoenolpyruvate carboxykinase [GTP], mitochondrial",
+            "alternative_names": [
+               "PEPCK-M",
+               "EC 4.1.1.32",
+               "Phosphoenolpyruvate carboxykinase 2, mitochondrial",
+               "mtPCK2",
+               "Serine/threonine-protein kinase PCK2",
+               "EC 2.7.11.-"
+            ],
+            "sequence_length": 640,
+            "pdb_structures": ""
+         },
+         {
+            "gene_name": "MSR1",
+            "uniprot_id": "P21757",
+            "protein_name": "Macrophage scavenger receptor types I and II",
+            "alternative_names": [
+               "Macrophage acetylated LDL receptor I and II",
+               "Scavenger receptor class A member 1",
+               "CD antigen CD204"
+            ],
+            "sequence_length": 451,
+            "pdb_structures": [
+               "7DPX"
+            ]
+         },
+         {
+            "gene_name": "MAD1L1",
+            "uniprot_id": "Q9Y6D9",
+            "protein_name": "Mitotic spindle assembly checkpoint protein MAD1",
+            "alternative_names": [
+               "Mitotic arrest deficient 1-like protein 1",
+               "MAD1-like protein 1",
+               "Mitotic checkpoint MAD1 protein homolog",
+               "HsMAD1",
+               "hMAD1",
+               "Tax-binding protein 181"
+            ],
+            "sequence_length": 718,
+            "pdb_structures": [
+               "1GO4",
+               "4DZO",
+               "7B1F",
+               "7B1H",
+               "7B1J"
+            ]
+         },
+         {
+            "gene_name": "IL5",
+            "uniprot_id": "P05113",
+            "protein_name": "Interleukin-5",
+            "alternative_names": [
+               "IL-5",
+               "B-cell differentiation factor I",
+               "Eosinophil differentiation factor",
+               "T-cell replacing factor",
+               "TRF"
+            ],
+            "sequence_length": 134,
+            "pdb_structures": [
+               "1HUL",
+               "3QT2",
+               "3VA2",
+               "8TLD"
+            ]
+         },
+         {
+            "gene_name": "IL3",
+            "uniprot_id": "P08700",
+            "protein_name": "Interleukin-3",
+            "alternative_names": [
+               "IL-3",
+               "Hematopoietic growth factor",
+               "Mast cell growth factor",
+               "MCGF",
+               "Multipotential colony-stimulating factor",
+               "P-cell-stimulating factor"
+            ],
+            "sequence_length": 152,
+            "pdb_structures": [
+               "1JLI",
+               "5UV8",
+               "5UWC",
+               "6NMY"
+            ]
+         }
+      ],
+      "uniprot_id": "P0DJI8",
+      "protein_name": "Serum amyloid A-1 protein",
+      "alternative_names": [
+         "SAA",
+         "Amyloid fibril protein AA",
+         "2-104",
+         "3-104",
+         "2-103",
+         "2-102",
+         "4-101"
+      ],
+      "function": "FUNCTION: Major acute phase protein.",
+      "sequence_length": 122,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:7115671}.",
+      "pdb_structures": [
+         "4IP8",
+         "4IP9",
+         "6MST",
+         "7ZKY"
+      ]
+   },
+   "MSMO1": {
+      "gene_name": "MSMO1",
+      "tier": "tier-1",
+      "lfc_mean": 2.9206119,
+      "proba_m1": 0.9564,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q15800",
+      "protein_name": "Methylsterol monooxygenase 1",
+      "alternative_names": [
+         "EC 1.14.18.9",
+         "C-4 methylsterol oxidase",
+         "Sterol-C4-methyl oxidase"
+      ],
+      "function": "FUNCTION: Catalyzes the three-step monooxygenation required for the demethylation of 4,4-dimethyl and 4alpha-methylsterols, which can be subsequently metabolized to cholesterol (PubMed:21285510, PubMed:23583456, PubMed:26114596, PubMed:28673550, PubMed:36958722). Also involved in drug metabolism, as it can metabolize eldecalcitol (ED-71 or 1alpha,25-dihydroxy-2beta-(3-hydroxypropoxy)-cholecalciferol), a second-generation vitamin D analog, into 1alpha,2beta,25-trihydroxy vitamin D3; this reaction occurs via enzymatic hydroxylation and spontaneous O-dehydroxypropylation (PubMed:26038696). {ECO:0000269|PubMed:21285510, ECO:0000269|PubMed:26038696, ECO:0000269|PubMed:28673550, ECO:0000269|PubMed:36958722, ECO:0000305|PubMed:23583456, ECO:0000305|PubMed:26114596}.",
+      "sequence_length": 293,
+      "subcellular_location": "SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000305}; Multi-pass membrane protein {ECO:0000305}.",
+      "pdb_structures": ""
+   },
+   "C1QTNF1-AS1": {
+      "gene_name": "C1QTNF1-AS1",
+      "tier": "tier-1",
+      "lfc_mean": 2.9164162,
+      "proba_m1": 0.9616,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": null,
+      "protein_name": null,
+      "alternative_names": [],
+      "function": null,
+      "sequence_length": null,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "SERPINB9P1": {
+      "gene_name": "SERPINB9P1",
+      "tier": "tier-1",
+      "lfc_mean": 2.8829188,
+      "proba_m1": 0.9832,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": null,
+      "protein_name": null,
+      "alternative_names": [],
+      "function": null,
+      "sequence_length": null,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "MT1M": {
+      "gene_name": "MT1M",
+      "tier": "tier-1",
+      "lfc_mean": 2.6727157,
+      "proba_m1": 0.9444,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q8N339",
+      "protein_name": "Metallothionein-1M",
+      "alternative_names": [
+         "MT-1M",
+         "Metallothionein-IM",
+         "MT-IM"
+      ],
+      "function": "FUNCTION: Metallothioneins have a high content of cysteine residues that bind various heavy metals; these proteins are transcriptionally regulated by both heavy metals and glucocorticoids.",
+      "sequence_length": 61,
+      "subcellular_location": "",
+      "pdb_structures": ""
+   },
+   "UNC13D": {
+      "gene_name": "UNC13D",
+      "tier": "tier-1",
+      "lfc_mean": 2.6386058,
+      "proba_m1": 0.9728,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q70J99",
+      "protein_name": "Protein unc-13 homolog D",
+      "alternative_names": [
+         "Munc13-4"
+      ],
+      "function": "FUNCTION: Plays a role in cytotoxic granule exocytosis in lymphocytes. Required for both granule maturation and granule docking and priming at the immunologic synapse. Regulates assembly of recycling and late endosomal structures, leading to the formation of an endosomal exocytic compartment that fuses with perforin-containing granules at the immunologic synapse and licences them for exocytosis. Regulates Ca(2+)-dependent secretory lysosome exocytosis in mast cells. {ECO:0000269|PubMed:15548590, ECO:0000269|PubMed:17237785}.",
+      "sequence_length": 1090,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cytoplasm. Membrane; Peripheral membrane protein. Late endosome. Recycling endosome. Lysosome. Note=Colocalizes with cytotoxic granules at the plasma membrane. Localizes to endosomal exocytic vesicles.",
+      "pdb_structures": ""
+   },
+   "VCAM1": {
+      "gene_name": "VCAM1",
+      "tier": "tier-1",
+      "lfc_mean": 2.534723,
+      "proba_m1": 0.9644,
+      "scenario": "A",
+      "regulating_tf": "JUN",
+      "soldier_genes": [
+         {
+            "gene_name": "TXN",
+            "uniprot_id": "P10599",
+            "protein_name": "Thioredoxin",
+            "alternative_names": [
+               "Trx",
+               "ATL-derived factor",
+               "ADF",
+               "Surface-associated sulphydryl protein",
+               "SASP",
+               "allergen Hom s Trx"
+            ],
+            "sequence_length": 105,
+            "pdb_structures": [
+               "1AIU",
+               "1AUC",
+               "1CQG",
+               "1CQH",
+               "1ERT",
+               "1ERU",
+               "1ERV",
+               "1ERW",
+               "1M7T",
+               "1MDI",
+               "1MDJ",
+               "1MDK",
+               "1TRS",
+               "1TRU",
+               "1TRV",
+               "1TRW",
+               "2HSH",
+               "2HXK",
+               "2IFQ",
+               "2IIY",
+               "3E3E",
+               "3KD0",
+               "3M9J",
+               "3M9K",
+               "3QFA",
+               "3QFB",
+               "3TRX",
+               "4LL1",
+               "4LL4",
+               "4OO4",
+               "4OO5",
+               "4POK",
+               "4POL",
+               "4POM",
+               "4PUF",
+               "4TRX",
+               "5DQY"
+            ]
+         },
+         {
+            "gene_name": "TNFRSF10A",
+            "uniprot_id": "O00220",
+            "protein_name": "Tumor necrosis factor receptor superfamily member 10A",
+            "alternative_names": [
+               "Death receptor 4",
+               "TNF-related apoptosis-inducing ligand receptor 1",
+               "TRAIL receptor 1",
+               "TRAIL-R1",
+               "CD antigen CD261"
+            ],
+            "sequence_length": 468,
+            "pdb_structures": [
+               "5CIR"
+            ]
+         },
+         {
+            "gene_name": "TIMP2",
+            "uniprot_id": "P16035",
+            "protein_name": "Metalloproteinase inhibitor 2",
+            "alternative_names": [
+               "CSC-21K",
+               "Tissue inhibitor of metalloproteinases 2",
+               "TIMP-2"
+            ],
+            "sequence_length": 220,
+            "pdb_structures": [
+               "1BR9",
+               "1GXD",
+               "2TMP",
+               "4ILW"
+            ]
+         },
+         {
+            "gene_name": "SPRR3",
+            "uniprot_id": "Q9UBC9",
+            "protein_name": "Small proline-rich protein 3",
+            "alternative_names": [
+               "22 kDa pancornulin",
+               "Cornifin beta",
+               "Esophagin"
+            ],
+            "sequence_length": 169,
+            "pdb_structures": ""
+         },
+         {
+            "gene_name": "RARB",
+            "uniprot_id": "P10826",
+            "protein_name": "Retinoic acid receptor beta",
+            "alternative_names": [
+               "RAR-beta",
+               "HBV-activated protein",
+               "Nuclear receptor subfamily 1 group B member 2",
+               "RAR-epsilon"
+            ],
+            "sequence_length": 455,
+            "pdb_structures": [
+               "1HRA",
+               "1XAP",
+               "4DM6",
+               "4DM8",
+               "4JYG",
+               "4JYH",
+               "4JYI",
+               "5UAN",
+               "6SSQ"
+            ]
+         },
+         {
+            "gene_name": "POLD2",
+            "uniprot_id": "P49005",
+            "protein_name": "DNA polymerase delta subunit 2",
+            "alternative_names": [
+               "DNA polymerase delta subunit p50"
+            ],
+            "sequence_length": 469,
+            "pdb_structures": [
+               "3E0J",
+               "6S1M",
+               "6S1N",
+               "6S1O",
+               "6TNY",
+               "6TNZ",
+               "9EKB"
+            ]
+         },
+         {
+            "gene_name": "PDHA1",
+            "uniprot_id": "P08559",
+            "protein_name": "Pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial",
+            "alternative_names": [
+               "EC 1.2.4.1",
+               "PDHE1-A type I"
+            ],
+            "sequence_length": 390,
+            "pdb_structures": [
+               "1NI4",
+               "2OZL",
+               "3EXE",
+               "3EXF",
+               "3EXG",
+               "3EXH",
+               "3EXI",
+               "6CER",
+               "6CFO"
+            ]
+         },
+         {
+            "gene_name": "NOX5",
+            "uniprot_id": "Q96PH1",
+            "protein_name": "NADPH oxidase 5",
+            "alternative_names": [
+               "EC 1.-.-.-",
+               "EC 1.6.3.-"
+            ],
+            "sequence_length": 765,
+            "pdb_structures": [
+               "6SZ5",
+               "8U7Y",
+               "8U85",
+               "8U86",
+               "8U87"
+            ]
+         },
+         {
+            "gene_name": "NFKB2",
+            "uniprot_id": "Q00653",
+            "protein_name": "Nuclear factor NF-kappa-B p100 subunit",
+            "alternative_names": [
+               "DNA-binding factor KBF2",
+               "H2TF1",
+               "Lymphocyte translocation chromosome 10 protein",
+               "Nuclear factor of kappa light polypeptide gene enhancer in B-cells 2",
+               "Oncogene Lyt-10",
+               "Lyt10"
+            ],
+            "sequence_length": 900,
+            "pdb_structures": [
+               "1A3Q",
+               "2D96",
+               "3DO7",
+               "4OT9",
+               "5ZMC",
+               "7CLI",
+               "7VUP",
+               "7VUQ",
+               "7W7L",
+               "8G8Q",
+               "8G8S"
+            ]
+         },
+         {
+            "gene_name": "RUNX2",
+            "uniprot_id": "Q13950",
+            "protein_name": "Runt-related transcription factor 2",
+            "alternative_names": [
+               "Acute myeloid leukemia 3 protein",
+               "Core-binding factor subunit alpha-1",
+               "CBF-alpha-1",
+               "Oncogene AML-3",
+               "Osteoblast-specific transcription factor 2",
+               "OSF-2",
+               "Polyomavirus enhancer-binding protein 2 alpha A subunit",
+               "PEA2-alpha A",
+               "PEBP2-alpha A",
+               "SL3-3 enhancer factor 1 alpha A subunit",
+               "SL3/AKV core-binding factor alpha A subunit"
+            ],
+            "sequence_length": 521,
+            "pdb_structures": [
+               "6VG8",
+               "6VGD",
+               "6VGE",
+               "6VGG"
+            ]
+         }
+      ],
+      "uniprot_id": "P19320",
+      "protein_name": "Vascular cell adhesion protein 1",
+      "alternative_names": [
+         "V-CAM 1",
+         "VCAM-1",
+         "INCAM-100",
+         "CD antigen CD106"
+      ],
+      "function": "FUNCTION: Cell adhesion glycoprotein predominantly expressed on the surface of endothelial cells that plays an important role in immune surveillance and inflammation (PubMed:31310649). Acts as a major regulator of leukocyte adhesion to the endothelium through interaction with different types of integrins (PubMed:10209034). During inflammatory responses, binds ligands on the surface of activated endothelial cells to initiate the activation of calcium channels and the plasma membrane-associated small GTPase RAC1 leading to leukocyte transendothelial migration (PubMed:22970700). Also serves as a quality-control checkpoint for entry into bone marrow by providing a 'don't-eat-me' stamping in the context of major histocompatibility complex (MHC) class-I presentation (PubMed:35210567). {ECO:0000269|PubMed:10209034, ECO:0000269|PubMed:22970700, ECO:0000269|PubMed:31310649, ECO:0000269|PubMed:35210567}.",
+      "sequence_length": 739,
+      "subcellular_location": "SUBCELLULAR LOCATION: [Vascular cell adhesion protein 1]: Cell membrane {ECO:0000305|PubMed:12878595}; Single-pass type I membrane protein.; SUBCELLULAR LOCATION: [Soluble Vascular Cell Adhesion Molecule-1]: Secreted {ECO:0000269|PubMed:12878595, ECO:0000269|PubMed:36127634}.",
+      "pdb_structures": [
+         "1IJ9",
+         "1VCA",
+         "1VSC"
+      ]
+   },
+   "ACTBL2": {
+      "gene_name": "ACTBL2",
+      "tier": "tier-1",
+      "lfc_mean": 2.4163363,
+      "proba_m1": 0.9002,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q562R1",
+      "protein_name": "Beta-actin-like protein 2",
+      "alternative_names": [
+         "Kappa-actin"
+      ],
+      "function": "FUNCTION: Actins are highly conserved proteins that are involved in various types of cell motility and are ubiquitously expressed in all eukaryotic cells. {ECO:0000250}.",
+      "sequence_length": 376,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton {ECO:0000250}.",
+      "pdb_structures": []
+   },
+   "DHCR24": {
+      "gene_name": "DHCR24",
+      "tier": "tier-1",
+      "lfc_mean": 2.3876314,
+      "proba_m1": 0.952,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q15392",
+      "protein_name": "Delta",
+      "alternative_names": [
+         "24",
+         "EC 1.3.1.72",
+         "24-dehydrocholesterol reductase",
+         "3-beta-hydroxysterol Delta-24-reductase",
+         "Diminuto/dwarf1 homolog",
+         "Seladin-1"
+      ],
+      "function": "FUNCTION: Catalyzes the reduction of the delta-24 double bond of sterol intermediates during cholesterol biosynthesis (PubMed:11519011, PubMed:21671375, PubMed:22178193, PubMed:25637936). In addition to its cholesterol-synthesizing activity, can protect cells from oxidative stress by reducing caspase 3 activity during apoptosis induced by oxidative stress (PubMed:11007892, PubMed:22010141). Also protects against amyloid-beta peptide-induced apoptosis (PubMed:11007892). {ECO:0000269|PubMed:11007892, ECO:0000269|PubMed:11519011, ECO:0000269|PubMed:21671375, ECO:0000269|PubMed:22010141, ECO:0000269|PubMed:22178193, ECO:0000269|PubMed:25637936}.",
+      "sequence_length": 516,
+      "subcellular_location": "SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000269|PubMed:11007892, ECO:0000269|PubMed:22010141}; Single-pass membrane protein {ECO:0000255}. Golgi apparatus membrane {ECO:0000269|PubMed:11007892}; Single-pass membrane protein {ECO:0000255}.",
+      "pdb_structures": []
+   },
+   "HMGCS1": {
+      "gene_name": "HMGCS1",
+      "tier": "tier-1",
+      "lfc_mean": 2.3750558,
+      "proba_m1": 0.9256,
+      "scenario": "A",
+      "regulating_tf": "PPARA",
+      "soldier_genes": [
+         {
+            "gene_name": "APOB",
+            "uniprot_id": "P04114",
+            "protein_name": "Apolipoprotein B-100",
+            "alternative_names": [
+               "Apo B-100",
+               "Apo B-48"
+            ],
+            "sequence_length": 4563,
+            "pdb_structures": [
+               "9BD1",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO",
+               "9E9R",
+               "9EA7",
+               "9EAG"
+            ]
+         },
+         {
+            "gene_name": "MYC",
+            "uniprot_id": "P01106",
+            "protein_name": "Myc proto-oncogene protein",
+            "alternative_names": [
+               "Class E basic helix-loop-helix protein 39",
+               "bHLHe39",
+               "Proto-oncogene c-Myc",
+               "Transcription factor p64"
+            ],
+            "sequence_length": 454,
+            "pdb_structures": [
+               "1A93",
+               "1EE4",
+               "1MV0",
+               "1NKP",
+               "2A93",
+               "2OR9",
+               "4Y7R",
+               "5I4Z",
+               "5I50",
+               "6C4U",
+               "6E16",
+               "6E24",
+               "6G6J",
+               "6G6K",
+               "6G6L",
+               "7T1Y",
+               "7T1Z",
+               "8J2Q",
+               "8OTS",
+               "8OTT",
+               "8Q1N",
+               "8WLG",
+               "8X8S",
+               "8X8V",
+               "9QNH"
+            ]
+         },
+         {
+            "gene_name": "MMP12",
+            "uniprot_id": "P39900",
+            "protein_name": "Macrophage metalloelastase",
+            "alternative_names": [
+               "MME",
+               "EC 3.4.24.65",
+               "Macrophage elastase",
+               "ME",
+               "hME",
+               "Matrix metalloproteinase-12",
+               "MMP-12"
+            ],
+            "sequence_length": 470,
+            "pdb_structures": [
+               "1JIZ",
+               "1JK3",
+               "1OS2",
+               "1OS9",
+               "1RMZ",
+               "1ROS",
+               "1UTT",
+               "1UTZ",
+               "1Y93",
+               "1YCM",
+               "1Z3J",
+               "2HU6",
+               "2JXY",
+               "2K2G",
+               "2K9C",
+               "2KRJ",
+               "2MLR",
+               "2MLS",
+               "2N8R",
+               "2OXU",
+               "2OXW",
+               "2OXZ",
+               "2POJ",
+               "2W0D",
+               "2WO8",
+               "2WO9",
+               "2WOA",
+               "2Z2D",
+               "3BA0",
+               "3EHX",
+               "3EHY",
+               "3F15",
+               "3F16",
+               "3F17",
+               "3F18",
+               "3F19",
+               "3F1A",
+               "3LIK",
+               "3LIL",
+               "3LIR",
+               "3LJG",
+               "3LK8",
+               "3LKA",
+               "3N2U",
+               "3N2V",
+               "3NX7",
+               "3RTS",
+               "3RTT",
+               "3TS4",
+               "3TSK",
+               "3UVC",
+               "4EFS",
+               "4GQL",
+               "4GR0",
+               "4GR3",
+               "4GR8",
+               "4GUY",
+               "4H30",
+               "4H49",
+               "4H76",
+               "4H84",
+               "4I03",
+               "4IJO",
+               "5CXA",
+               "5CZM",
+               "5D2B",
+               "5D3C",
+               "5I0L",
+               "5I2Z",
+               "5I3M",
+               "5I43",
+               "5I4O",
+               "5L79",
+               "5L7F",
+               "5LAB",
+               "5N5J",
+               "5N5K",
+               "6EKN",
+               "6ELA",
+               "6ENM",
+               "6EOX",
+               "6RD0",
+               "6RLY",
+               "7OVY",
+               "8B2N",
+               "8RIJ"
+            ]
+         },
+         {
+            "gene_name": "ACOX2",
+            "uniprot_id": "Q99424",
+            "protein_name": "Peroxisomal acyl-coenzyme A oxidase 2",
+            "alternative_names": [
+               "EC 1.17.99.3",
+               "3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholestanoyl-CoA 24-hydroxylase",
+               "3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholestanoyl-CoA oxidase",
+               "Trihydroxycoprostanoyl-CoA oxidase",
+               "THCA-CoA oxidase",
+               "THCCox"
+            ],
+            "sequence_length": 681,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "APOA1",
+            "uniprot_id": "P02647",
+            "protein_name": "Apolipoprotein A-I",
+            "alternative_names": [
+               "Apo-AI",
+               "ApoA-I",
+               "Apolipoprotein A1",
+               "ProapoA-I",
+               "Apolipoprotein A-I(1-242"
+            ],
+            "sequence_length": 267,
+            "pdb_structures": [
+               "1AV1",
+               "1GW3",
+               "1GW4",
+               "1ODP",
+               "1ODQ",
+               "1ODR",
+               "2MSC",
+               "2MSD",
+               "2MSE",
+               "2N5E",
+               "3K2S",
+               "3R2P",
+               "4V6M",
+               "6CC9",
+               "6CCH",
+               "6CCX",
+               "6CLZ",
+               "6CM1",
+               "6PTS",
+               "6PTW",
+               "6W4E",
+               "6W4F",
+               "7KJR",
+               "7RSC",
+               "7RSE",
+               "8EQS",
+               "9MXZ"
+            ]
+         },
+         {
+            "gene_name": "APOA5",
+            "uniprot_id": "Q6Q788",
+            "protein_name": "Apolipoprotein A-V",
+            "alternative_names": [
+               "Apo-AV",
+               "ApoA-V",
+               "Apolipoprotein A5",
+               "Regeneration-associated protein 3"
+            ],
+            "sequence_length": 366,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "CD36",
+            "uniprot_id": "P16671",
+            "protein_name": "Platelet glycoprotein 4",
+            "alternative_names": [
+               "Fatty acid translocase",
+               "FAT",
+               "Glycoprotein IIIb",
+               "GPIIIB",
+               "Leukocyte differentiation antigen CD36",
+               "PAS IV",
+               "PAS-4",
+               "Platelet collagen receptor",
+               "Platelet glycoprotein IV",
+               "GPIV",
+               "Thrombospondin receptor",
+               "CD antigen CD36"
+            ],
+            "sequence_length": 472,
+            "pdb_structures": [
+               "5LGD"
+            ]
+         },
+         {
+            "gene_name": "PCK1",
+            "uniprot_id": "P35558",
+            "protein_name": "Phosphoenolpyruvate carboxykinase, cytosolic [GTP]",
+            "alternative_names": [
+               "PEPCK-C",
+               "EC 4.1.1.32",
+               "Serine-protein kinase PCK1",
+               "EC 2.7.11.-"
+            ],
+            "sequence_length": 622,
+            "pdb_structures": [
+               "1KHB",
+               "1KHE",
+               "1KHF",
+               "1KHG",
+               "1M51",
+               "1NHX",
+               "2GMV"
+            ]
+         },
+         {
+            "gene_name": "FADS2",
+            "uniprot_id": "O95864",
+            "protein_name": "Acyl-CoA 6-desaturase",
+            "alternative_names": [
+               "EC 1.14.19.3",
+               "Delta(6",
+               "D6D",
+               "Delta(6",
+               "Delta-6 desaturase",
+               "Fatty acid desaturase 2"
+            ],
+            "sequence_length": 444,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "NFKBIA",
+            "uniprot_id": "P25963",
+            "protein_name": "NF-kappa-B inhibitor alpha",
+            "alternative_names": [
+               "I-kappa-B-alpha",
+               "IkB-alpha",
+               "IkappaBalpha",
+               "Major histocompatibility complex enhancer-binding protein MAD3"
+            ],
+            "sequence_length": 317,
+            "pdb_structures": [
+               "1IKN",
+               "1NFI",
+               "6TTU",
+               "6Y1J"
+            ]
+         }
+      ],
+      "uniprot_id": "Q01581",
+      "protein_name": "Hydroxymethylglutaryl-CoA synthase, cytoplasmic",
+      "alternative_names": [
+         "HMG-CoA synthase",
+         "EC 2.3.3.10",
+         "3-hydroxy-3-methylglutaryl coenzyme A synthase"
+      ],
+      "function": "FUNCTION: Catalyzes the condensation of acetyl-CoA with acetoacetyl-CoA to form HMG-CoA, which is converted by HMG-CoA reductase (HMGCR) into mevalonate, a precursor for cholesterol synthesis. {ECO:0000269|PubMed:7913309}.",
+      "sequence_length": 520,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:1358203}.",
+      "pdb_structures": [
+         "2P8U"
+      ]
+   },
+   "AP001981.2": {
+      "gene_name": "AP001981.2",
+      "tier": "tier-1",
+      "lfc_mean": 2.3617585,
+      "proba_m1": 0.9138,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": null,
+      "protein_name": null,
+      "alternative_names": [],
+      "function": null,
+      "sequence_length": null,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "AMH": {
+      "gene_name": "AMH",
+      "tier": "tier-1",
+      "lfc_mean": 2.3499644,
+      "proba_m1": 0.9082,
+      "scenario": "A",
+      "regulating_tf": "NFKB1",
+      "soldier_genes": [
+         {
+            "gene_name": "VCAM1",
+            "uniprot_id": "P19320",
+            "protein_name": "Vascular cell adhesion protein 1",
+            "alternative_names": [
+               "V-CAM 1",
+               "VCAM-1",
+               "INCAM-100",
+               "CD antigen CD106"
+            ],
+            "sequence_length": 739,
+            "pdb_structures": [
+               "1IJ9",
+               "1VCA",
+               "1VSC"
+            ]
+         },
+         {
+            "gene_name": "GATA3",
+            "uniprot_id": "P23771",
+            "protein_name": "Trans-acting T-cell-specific transcription factor GATA-3",
+            "alternative_names": [
+               "GATA-binding factor 3"
+            ],
+            "sequence_length": 443,
+            "pdb_structures": [
+               "4HC7",
+               "4HC9",
+               "4HCA"
+            ]
+         },
+         {
+            "gene_name": "RRM2B",
+            "uniprot_id": "Q7LG56",
+            "protein_name": "Ribonucleoside-diphosphate reductase subunit M2 B",
+            "alternative_names": [
+               "EC 1.17.4.1",
+               "TP53-inducible ribonucleotide reductase M2 B",
+               "p53-inducible ribonucleotide reductase small subunit 2-like protein",
+               "p53R2"
+            ],
+            "sequence_length": 351,
+            "pdb_structures": [
+               "2VUX",
+               "3HF1",
+               "4DJN"
+            ]
+         },
+         {
+            "gene_name": "PTPN13",
+            "uniprot_id": "Q12923",
+            "protein_name": "Tyrosine-protein phosphatase non-receptor type 13",
+            "alternative_names": [
+               "EC 3.1.3.48",
+               "Fas-associated protein-tyrosine phosphatase 1",
+               "FAP-1",
+               "PTP-BAS",
+               "Protein-tyrosine phosphatase 1E",
+               "PTP-E1",
+               "hPTPE1",
+               "Protein-tyrosine phosphatase PTPL1"
+            ],
+            "sequence_length": 2485,
+            "pdb_structures": [
+               "1D5G",
+               "1Q7X",
+               "1WCH",
+               "2M0Z",
+               "2M10",
+               "3LNX",
+               "3LNY",
+               "3PDZ",
+               "5GLJ",
+               "7QCX",
+               "7QCY",
+               "7XTY"
+            ]
+         },
+         {
+            "gene_name": "PTAFR",
+            "uniprot_id": "P25105",
+            "protein_name": "Platelet-activating factor receptor",
+            "alternative_names": [
+               "PAF-R",
+               "PAFr"
+            ],
+            "sequence_length": 342,
+            "pdb_structures": [
+               "5ZKP",
+               "5ZKQ",
+               "8XYD"
+            ]
+         },
+         {
+            "gene_name": "PLAU",
+            "uniprot_id": "P00749",
+            "protein_name": "Urokinase-type plasminogen activator",
+            "alternative_names": [
+               "U-plasminogen activator",
+               "uPA",
+               "EC 3.4.21.73"
+            ],
+            "sequence_length": 431,
+            "pdb_structures": [
+               "1C5W",
+               "1C5X",
+               "1C5Y",
+               "1C5Z",
+               "1EJN",
+               "1F5K",
+               "1F5L",
+               "1F92",
+               "1FV9",
+               "1GI7",
+               "1GI8",
+               "1GI9",
+               "1GJ7",
+               "1GJ8",
+               "1GJ9",
+               "1GJA",
+               "1GJB",
+               "1GJC",
+               "1GJD",
+               "1KDU",
+               "1LMW",
+               "1O3P",
+               "1O5A",
+               "1O5B",
+               "1O5C",
+               "1OWD",
+               "1OWE",
+               "1OWH",
+               "1OWI",
+               "1OWJ",
+               "1OWK",
+               "1SC8",
+               "1SQA",
+               "1SQO",
+               "1SQT",
+               "1U6Q",
+               "1URK",
+               "1VJ9",
+               "1VJA",
+               "1W0Z",
+               "1W10",
+               "1W11",
+               "1W12",
+               "1W13",
+               "1W14",
+               "2FD6",
+               "2I9A",
+               "2I9B",
+               "2NWN",
+               "2O8T",
+               "2O8U",
+               "2O8W",
+               "2R2W",
+               "2VIN",
+               "2VIO",
+               "2VIP",
+               "2VIQ",
+               "2VIV",
+               "2VIW",
+               "2VNT",
+               "3BT1",
+               "3BT2",
+               "3IG6",
+               "3KGP",
+               "3KHV",
+               "3KID",
+               "3M61",
+               "3MHW",
+               "3MWI",
+               "3OX7",
+               "3OY5",
+               "3OY6",
+               "3PB1",
+               "3QN7",
+               "3U73",
+               "4DVA",
+               "4DW2",
+               "4FU7",
+               "4FU8",
+               "4FU9",
+               "4FUB",
+               "4FUC",
+               "4FUD",
+               "4FUE",
+               "4FUF",
+               "4FUG",
+               "4FUH",
+               "4FUI",
+               "4FUJ",
+               "4GLY",
+               "4H42",
+               "4JK5",
+               "4JK6",
+               "4K24",
+               "4MNV",
+               "4MNW",
+               "4MNX",
+               "4MNY",
+               "4OS1",
+               "4OS2",
+               "4OS4",
+               "4OS5",
+               "4OS6",
+               "4OS7",
+               "4X0W",
+               "4X1N",
+               "4X1P",
+               "4X1Q",
+               "4X1R",
+               "4X1S",
+               "4XSK",
+               "4ZHL",
+               "4ZHM",
+               "4ZKN",
+               "4ZKO",
+               "4ZKR",
+               "4ZKS",
+               "5HGG",
+               "5WXF",
+               "5WXO",
+               "5WXP",
+               "5WXQ",
+               "5WXR",
+               "5WXS",
+               "5WXT",
+               "5XG4",
+               "5YC6",
+               "5YC7",
+               "5Z1C",
+               "5ZA7",
+               "5ZA8",
+               "5ZA9",
+               "5ZAE",
+               "5ZAF",
+               "5ZAG",
+               "5ZAH",
+               "5ZAJ",
+               "5ZC5",
+               "6AG2",
+               "6AG3",
+               "6AG7",
+               "6AG9",
+               "6JYP",
+               "6JYQ",
+               "6L04",
+               "6L05",
+               "6NMB",
+               "6XVD",
+               "7DZD",
+               "7VM4",
+               "7VM5",
+               "7VM6",
+               "7VM7",
+               "7ZRR",
+               "7ZRT",
+               "9PYF"
+            ]
+         },
+         {
+            "gene_name": "PDE7A",
+            "uniprot_id": "Q13946",
+            "protein_name": "High affinity 3',5'-cyclic-AMP phosphodiesterase 7A",
+            "alternative_names": [
+               "EC 3.1.4.53",
+               "HCP1",
+               "TM22",
+               "cAMP-specific phosphodiesterase 7A"
+            ],
+            "sequence_length": 482,
+            "pdb_structures": [
+               "1ZKL",
+               "3G3N",
+               "4PM0",
+               "4Y2B"
+            ]
+         },
+         {
+            "gene_name": "PLAUR",
+            "uniprot_id": "Q03405",
+            "protein_name": "Urokinase plasminogen activator surface receptor",
+            "alternative_names": [
+               "U-PAR",
+               "uPAR",
+               "Monocyte activation antigen Mo3",
+               "CD antigen CD87"
+            ],
+            "sequence_length": 335,
+            "pdb_structures": [
+               "1YWH",
+               "2FD6",
+               "2I9B",
+               "3BT1",
+               "3BT2",
+               "3U73",
+               "3U74",
+               "4K24",
+               "4QTI",
+               "7E17",
+               "7V63"
+            ]
+         },
+         {
+            "gene_name": "NOLC1",
+            "uniprot_id": "Q14978",
+            "protein_name": "Nucleolar and coiled-body phosphoprotein 1",
+            "alternative_names": [
+               "140 kDa nucleolar phosphoprotein",
+               "Nopp140",
+               "Hepatitis C virus NS5A-transactivated protein 13",
+               "HCV NS5A-transactivated protein 13",
+               "Nucleolar 130 kDa protein",
+               "Nucleolar phosphoprotein p130"
+            ],
+            "sequence_length": 699,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "MMP2",
+            "uniprot_id": "P08253",
+            "protein_name": "72 kDa type IV collagenase",
+            "alternative_names": [
+               "EC 3.4.24.24",
+               "72 kDa gelatinase",
+               "Gelatinase A",
+               "Matrix metalloproteinase-2",
+               "MMP-2",
+               "TBE-1"
+            ],
+            "sequence_length": 660,
+            "pdb_structures": [
+               "1CK7",
+               "1CXW",
+               "1EAK",
+               "1GEN",
+               "1GXD",
+               "1HOV",
+               "1J7M",
+               "1KS0",
+               "1QIB",
+               "1RTG",
+               "3AYU",
+               "7XGJ",
+               "7XJO",
+               "8H78"
+            ]
+         }
+      ],
+      "uniprot_id": "P03971",
+      "protein_name": "Anti-Muellerian hormone",
+      "alternative_names": [
+         "AMH",
+         "Muellerian-inhibiting factor",
+         "Muellerian-inhibiting substance",
+         "MIS"
+      ],
+      "function": "FUNCTION: The anti-Muellerian hormone (AMH) plays an important role in several reproductive functions (PubMed:14742691, PubMed:34155118, PubMed:3754790, PubMed:8469238). Anti-Muellerian hormone binds and activates AMHR2, its specific type-II receptor, that heterodimerizes with type-I receptors (ACVR1 and BMPR1A) to regulate target gene expression through downstream SMAD protein signal transduction (PubMed:20861221, PubMed:34155118). Produced and secreted by Sertoli cells of the male fetus, anti-Muellerian hormone induces Muellerian duct regression during male fetal sexual differentiation (PubMed:34155118, PubMed:3754790, PubMed:8469238). In female, it is produced by granulosa cells of the preantral and small antral follicles and acts as a negative regulator of the primordial to primary follicle transition and decreases FSH sensitivity of growing follicles (PubMed:14742691). Also plays a role in Leydig cell differentiation and function (By similarity). {ECO:0000250|UniProtKB:P27106, ECO:0000269|PubMed:14742691, ECO:0000269|PubMed:20861221, ECO:0000269|PubMed:34155118, ECO:0000269|PubMed:3754790, ECO:0000269|PubMed:8469238}.",
+      "sequence_length": 560,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:2974034, ECO:0000269|PubMed:3754790}.",
+      "pdb_structures": [
+         "7L0J",
+         "9BAN",
+         "9BAO"
+      ]
+   },
+   "STARD4": {
+      "gene_name": "STARD4",
+      "tier": "tier-1",
+      "lfc_mean": 2.3485644,
+      "proba_m1": 0.963,
+      "scenario": "A",
+      "regulating_tf": "SREBF2",
+      "soldier_genes": [
+         {
+            "gene_name": "INSIG1",
+            "uniprot_id": "O15503",
+            "protein_name": "Insulin-induced gene 1 protein",
+            "alternative_names": [
+               "INSIG-1"
+            ],
+            "sequence_length": 277,
+            "pdb_structures": [
+               "4J81"
+            ]
+         },
+         {
+            "gene_name": "LDLR",
+            "uniprot_id": "P01130",
+            "protein_name": "Low-density lipoprotein receptor",
+            "alternative_names": [
+               "LDL receptor"
+            ],
+            "sequence_length": 860,
+            "pdb_structures": [
+               "1AJJ",
+               "1D2J",
+               "1F5Y",
+               "1F8Z",
+               "1HJ7",
+               "1HZ8",
+               "1I0U",
+               "1IJQ",
+               "1LDL",
+               "1LDR",
+               "1N7D",
+               "1XFE",
+               "2FCW",
+               "2KRI",
+               "2LGP",
+               "2M7P",
+               "2MG9",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SO6",
+               "4NE9",
+               "5OY9",
+               "5OYL",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO"
+            ]
+         },
+         {
+            "gene_name": "PCYT2",
+            "uniprot_id": "Q99447",
+            "protein_name": "Ethanolamine-phosphate cytidylyltransferase",
+            "alternative_names": [
+               "EC 2.7.7.14",
+               "CTP:phosphoethanolamine cytidylyltransferase",
+               "Phosphorylethanolamine transferase"
+            ],
+            "sequence_length": 389,
+            "pdb_structures": [
+               "3ELB",
+               "4XSV"
+            ]
+         },
+         {
+            "gene_name": "EBP",
+            "uniprot_id": "Q15125",
+            "protein_name": "3-beta-hydroxysteroid-Delta",
+            "alternative_names": [
+               "8",
+               "7",
+               "EC 5.3.3.5",
+               "Cholestenol Delta-isomerase",
+               "Cholesterol-5,6-epoxide hydrolase subunit EBP",
+               "EC 3.3.2.11",
+               "Delta(8",
+               "7",
+               "D8-D7 sterol isomerase",
+               "Emopamil-binding protein"
+            ],
+            "sequence_length": 230,
+            "pdb_structures": [
+               "6OHT",
+               "6OHU",
+               "8W0R",
+               "8W0S"
+            ]
+         },
+         {
+            "gene_name": "SQLE",
+            "uniprot_id": "Q14534",
+            "protein_name": "Squalene monooxygenase",
+            "alternative_names": [
+               "EC 1.14.14.17",
+               "Squalene epoxidase",
+               "SE"
+            ],
+            "sequence_length": 574,
+            "pdb_structures": [
+               "6C6N",
+               "6C6P",
+               "6C6R"
+            ]
+         },
+         {
+            "gene_name": "FDFT1",
+            "uniprot_id": "P37268",
+            "protein_name": "Squalene synthase",
+            "alternative_names": [
+               "SQS",
+               "SS",
+               "EC 2.5.1.21",
+               "FPP:FPP farnesyltransferase",
+               "Farnesyl-diphosphate farnesyltransferase",
+               "Farnesyl-diphosphate farnesyltransferase 1"
+            ],
+            "sequence_length": 417,
+            "pdb_structures": [
+               "1EZF",
+               "3ASX",
+               "3LEE",
+               "3Q2Z",
+               "3Q30",
+               "3V66",
+               "3VJ8",
+               "3VJ9",
+               "3VJA",
+               "3VJB",
+               "3VJC",
+               "3WC9",
+               "3WCD",
+               "3WCF",
+               "3WCH",
+               "3WCI",
+               "3WCJ",
+               "3WCL",
+               "3WCM",
+               "3WEF",
+               "3WEG",
+               "3WEH",
+               "3WEI",
+               "3WEJ",
+               "3WEK",
+               "3WSA",
+               "6PYJ",
+               "6PYV",
+               "6PYW",
+               "6PZ5",
+               "8WTQ",
+               "8WTR"
+            ]
+         },
+         {
+            "gene_name": "ACLY",
+            "uniprot_id": "P53396",
+            "protein_name": "ATP-citrate synthase",
+            "alternative_names": [
+               "EC 2.3.3.8",
+               "ATP-citrate (pro-S-",
+               "ACL",
+               "Citrate cleavage enzyme"
+            ],
+            "sequence_length": 1101,
+            "pdb_structures": [
+               "3MWD",
+               "3MWE",
+               "3PFF",
+               "5TDE",
+               "5TDF",
+               "5TDM",
+               "5TDZ",
+               "5TE1",
+               "5TEQ",
+               "5TES",
+               "5TET",
+               "6HXH",
+               "6HXK",
+               "6HXL",
+               "6HXM",
+               "6O0H",
+               "6POE",
+               "6POF",
+               "6QFB",
+               "6UI9",
+               "6UIA",
+               "6UUW",
+               "6UUZ",
+               "6UV5",
+               "6Z2H",
+               "7LIW",
+               "7LJ9",
+               "7LLA",
+               "7RIG",
+               "7RKZ",
+               "7RMP",
+               "8G1E",
+               "8G1F",
+               "8G5C",
+               "8G5D"
+            ]
+         },
+         {
+            "gene_name": "PON1",
+            "uniprot_id": "P27169",
+            "protein_name": "Serum paraoxonase/arylesterase 1",
+            "alternative_names": [
+               "PON 1",
+               "EC 3.1.1.2",
+               "EC 3.1.1.81",
+               "EC 3.1.8.1",
+               "Aromatic esterase 1",
+               "A-esterase 1",
+               "K-45",
+               "Serum aryldialkylphosphatase 1"
+            ],
+            "sequence_length": 355,
+            "pdb_structures": [
+               "1V04"
+            ]
+         },
+         {
+            "gene_name": "NPC1L1",
+            "uniprot_id": "Q9UHC9",
+            "protein_name": "NPC1-like intracellular cholesterol transporter 1",
+            "alternative_names": [
+               "NPC1L1",
+               "Niemann-Pick C1-like protein 1"
+            ],
+            "sequence_length": 1359,
+            "pdb_structures": [
+               "3QNT",
+               "7DF8",
+               "7DFW",
+               "7DFZ",
+               "7N4U",
+               "7N4V",
+               "7N4X"
+            ]
+         },
+         {
+            "gene_name": "PCSK9",
+            "uniprot_id": "Q8NBP7",
+            "protein_name": "Proprotein convertase subtilisin/kexin type 9",
+            "alternative_names": [
+               "EC 3.4.21.-",
+               "Neural apoptosis-regulated convertase 1",
+               "NARC-1",
+               "Proprotein convertase 9",
+               "PC9",
+               "Subtilisin/kexin-like protease PC9"
+            ],
+            "sequence_length": 692,
+            "pdb_structures": [
+               "2P4E",
+               "2PMW",
+               "2QTW",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "2XTJ",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3H42",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SQO",
+               "4K8R",
+               "4NE9",
+               "4NMX",
+               "4OV6",
+               "5OCA",
+               "5VL7",
+               "5VLA",
+               "5VLH",
+               "5VLK",
+               "5VLL",
+               "5VLP",
+               "6E4Y",
+               "6E4Z",
+               "6MV5",
+               "6OLZ",
+               "6OM0",
+               "6OM7",
+               "6U26",
+               "6U2F",
+               "6U2N",
+               "6U2P",
+               "6U36",
+               "6U38",
+               "6U3I",
+               "6U3X",
+               "6XIB",
+               "6XIC",
+               "6XID",
+               "6XIE",
+               "6XIF",
+               "7ANQ",
+               "7KEV",
+               "7KFA",
+               "7S5G",
+               "7S5H",
+               "8FPO",
+               "8FPQ",
+               "8FVL",
+               "8FVM",
+               "8FVN",
+               "8FVO",
+               "8FVP",
+               "8FVQ",
+               "8VDV",
+               "8WFR"
+            ]
+         }
+      ],
+      "uniprot_id": "Q96DR4",
+      "protein_name": "StAR-related lipid transfer protein 4",
+      "alternative_names": [
+         "START domain-containing protein 4",
+         "StARD4"
+      ],
+      "function": "FUNCTION: Involved in the intracellular transport of cholesterol. Binds cholesterol or other sterols. {ECO:0000269|PubMed:18403318}.",
+      "sequence_length": 205,
+      "subcellular_location": null,
+      "pdb_structures": [
+         "6L1D",
+         "6L1M"
+      ]
+   },
+   "GGT5": {
+      "gene_name": "GGT5",
+      "tier": "tier-1",
+      "lfc_mean": 2.3471987,
+      "proba_m1": 0.9522,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P36269",
+      "protein_name": "Glutathione hydrolase 5 proenzyme",
+      "alternative_names": [
+         "EC 3.4.19.13",
+         "Gamma-glutamyl transpeptidase-related enzyme",
+         "GGT-rel",
+         "Gamma-glutamyltransferase 5",
+         "GGT 5",
+         "EC 2.3.2.2",
+         "Gamma-glutamyltransferase-like activity 1",
+         "Gamma-glutamyltranspeptidase 5",
+         "Leukotriene-C4 hydrolase",
+         "EC 3.4.19.14"
+      ],
+      "function": "FUNCTION: Cleaves the gamma-glutamyl bond of extracellular glutathione tripeptide (gamma-Glu-Cys-Gly) and certain glutathione conjugates (PubMed:1676842, PubMed:21447318). Hydrolyzes glutathione releasing L-Glu and Cys-Gly dipeptide which is further metabolized to maintain extracellular cysteine levels but also to provide cysteine necessary for intracellular glutathione synthesis (PubMed:1676842, PubMed:21447318). Among glutathione-S-conjugates metabolizes leukotriene C4 (LTC4) and S-geranylgeranyl-glutathione (GGG), but is inactive toward gamma-glutamyl leucine. Converts extracellular LTC4 to LTD4 during acute inflammatory response. Acts as a negative regulator of GGG bioactivity. GGT5 (via GGG catabolism) and ABCC1 (via extracellular transport) establish GGG gradients within lymphoid tissues to position P2RY8-positive lymphocytes at germinal centers in lymphoid follicles and restrict their chemotactic transmigration from blood vessels to bone marrow parenchyma (By similarity). The transpeptidation reaction, i.e. the transfer of gamma-glutamyl moiety to an acceptor molecule to yield a new gamma-glutamyl compound requires high concentration of dipeptide acceptor and is considered nonphysiological (PubMed:21447318, PubMed:29667297). {ECO:0000250|UniProtKB:Q9Z2A9, ECO:0000269|PubMed:1676842, ECO:0000269|PubMed:21447318, ECO:0000303|PubMed:29667297}.",
+      "sequence_length": 586,
+      "subcellular_location": "SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:Q9Z2A9}; Single-pass type II membrane protein {ECO:0000250|UniProtKB:Q9Z2A9}.",
+      "pdb_structures": []
+   },
+   "AP1M2": {
+      "gene_name": "AP1M2",
+      "tier": "tier-1",
+      "lfc_mean": 2.3345084,
+      "proba_m1": 0.9382,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q9Y6Q5",
+      "protein_name": "AP-1 complex subunit mu-2",
+      "alternative_names": [
+         "AP-mu chain family member mu1B",
+         "Adaptor protein complex AP-1 subunit mu-2",
+         "Adaptor-related protein complex 1 subunit mu-2",
+         "Clathrin assembly protein complex 1 mu-2 medium chain 2",
+         "Golgi adaptor HA1/AP1 adaptin mu-2 subunit",
+         "Mu-adaptin 2",
+         "Mu1B-adaptin"
+      ],
+      "function": "FUNCTION: Subunit of clathrin-associated adaptor protein complex 1 that plays a role in protein sorting in the trans-Golgi network (TGN) and endosomes. The AP complexes mediate the recruitment of clathrin to membranes and the recognition of sorting signals within the cytosolic tails of transmembrane cargo molecules.",
+      "sequence_length": 423,
+      "subcellular_location": "SUBCELLULAR LOCATION: Golgi apparatus. Cytoplasmic vesicle, clathrin-coated vesicle membrane; Peripheral membrane protein; Cytoplasmic side. Note=Component of the coat surrounding the cytoplasmic face of coated vesicles located at the Golgi complex.",
+      "pdb_structures": []
+   },
+   "KRT19": {
+      "gene_name": "KRT19",
+      "tier": "tier-1",
+      "lfc_mean": 2.3324158,
+      "proba_m1": 0.948,
+      "scenario": "A",
+      "regulating_tf": "SP1",
+      "soldier_genes": [
+         {
+            "gene_name": "AREG",
+            "uniprot_id": "P15514",
+            "protein_name": "Amphiregulin",
+            "alternative_names": [
+               "AR",
+               "Colorectum cell-derived growth factor",
+               "CRDGF"
+            ],
+            "sequence_length": 252,
+            "pdb_structures": [
+               "2RNL"
+            ]
+         },
+         {
+            "gene_name": "LDLR",
+            "uniprot_id": "P01130",
+            "protein_name": "Low-density lipoprotein receptor",
+            "alternative_names": [
+               "LDL receptor"
+            ],
+            "sequence_length": 860,
+            "pdb_structures": [
+               "1AJJ",
+               "1D2J",
+               "1F5Y",
+               "1F8Z",
+               "1HJ7",
+               "1HZ8",
+               "1I0U",
+               "1IJQ",
+               "1LDL",
+               "1LDR",
+               "1N7D",
+               "1XFE",
+               "2FCW",
+               "2KRI",
+               "2LGP",
+               "2M7P",
+               "2MG9",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SO6",
+               "4NE9",
+               "5OY9",
+               "5OYL",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO"
+            ]
+         },
+         {
+            "gene_name": "MNDA",
+            "uniprot_id": "P41218",
+            "protein_name": "Myeloid cell nuclear differentiation antigen",
+            "alternative_names": [],
+            "sequence_length": 407,
+            "pdb_structures": [
+               "2DBG",
+               "5H7Q",
+               "5WPZ",
+               "8I6K"
+            ]
+         },
+         {
+            "gene_name": "MME",
+            "uniprot_id": "P08473",
+            "protein_name": "Neprilysin",
+            "alternative_names": [
+               "EC 3.4.24.11",
+               "Atriopeptidase",
+               "Common acute lymphocytic leukemia antigen",
+               "CALLA",
+               "Enkephalinase",
+               "Neutral endopeptidase 24.11",
+               "NEP",
+               "Neutral endopeptidase",
+               "Skin fibroblast elastase",
+               "SFE",
+               "CD antigen CD10"
+            ],
+            "sequence_length": 750,
+            "pdb_structures": [
+               "1DMT",
+               "1R1H",
+               "1R1I",
+               "1R1J",
+               "1Y8J",
+               "2QPJ",
+               "2YB9",
+               "4CTH",
+               "5JMY",
+               "6GID",
+               "6SH1",
+               "6SH2",
+               "6SUK",
+               "6SVY",
+               "6THP",
+               "6XVP"
+            ]
+         },
+         {
+            "gene_name": "MCTS1",
+            "uniprot_id": "Q9ULC4",
+            "protein_name": "Malignant T-cell-amplified sequence 1",
+            "alternative_names": [
+               "MCT-1",
+               "Multiple copies T-cell malignancies"
+            ],
+            "sequence_length": 181,
+            "pdb_structures": [
+               "3R90",
+               "5ONS",
+               "5VYC",
+               "6MS4"
+            ]
+         },
+         {
+            "gene_name": "MAT2B",
+            "uniprot_id": "Q9NZL9",
+            "protein_name": "Methionine adenosyltransferase 2 subunit beta",
+            "alternative_names": [
+               "Methionine adenosyltransferase II beta",
+               "MAT II beta",
+               "Putative dTDP-4-keto-6-deoxy-D-glucose 4-reductase"
+            ],
+            "sequence_length": 334,
+            "pdb_structures": [
+               "2YDX",
+               "2YDY",
+               "4KTT",
+               "4KTV",
+               "4NDN"
+            ]
+         },
+         {
+            "gene_name": "KRT5",
+            "uniprot_id": "P13647",
+            "protein_name": "Keratin, type II cytoskeletal 5",
+            "alternative_names": [
+               "58 kDa cytokeratin",
+               "Cytokeratin-5",
+               "CK-5",
+               "Keratin-5",
+               "K5",
+               "Type-II keratin Kb5"
+            ],
+            "sequence_length": 590,
+            "pdb_structures": [
+               "3TNU",
+               "6JFV"
+            ]
+         },
+         {
+            "gene_name": "IMPDH2",
+            "uniprot_id": "P12268",
+            "protein_name": "Inosine-5'-monophosphate dehydrogenase 2",
+            "alternative_names": [
+               "IMP dehydrogenase 2",
+               "IMPD 2",
+               "IMPDH 2",
+               "EC 1.1.1.205",
+               "Inosine-5'-monophosphate dehydrogenase type II",
+               "IMP dehydrogenase II",
+               "IMPDH-II"
+            ],
+            "sequence_length": 514,
+            "pdb_structures": [
+               "1B3O",
+               "1NF7",
+               "1NFB",
+               "6I0M",
+               "6I0O",
+               "6U8E",
+               "6U8N",
+               "6U8R",
+               "6U8S",
+               "6U9O",
+               "6UA2",
+               "6UA4",
+               "6UA5",
+               "6UAJ",
+               "6UC2",
+               "6UDO",
+               "6UDP",
+               "6UDQ",
+               "8FOZ",
+               "8FUZ",
+               "8G8F",
+               "8G9B",
+               "9DMU"
+            ]
+         },
+         {
+            "gene_name": "HTR1A",
+            "uniprot_id": "P08908",
+            "protein_name": "5-hydroxytryptamine receptor 1A",
+            "alternative_names": [
+               "5-HT-1A",
+               "5-HT1A",
+               "G-21",
+               "Serotonin receptor 1A"
+            ],
+            "sequence_length": 422,
+            "pdb_structures": [
+               "7E2X",
+               "7E2Y",
+               "7E2Z",
+               "8FY8",
+               "8FYE",
+               "8FYL",
+               "8FYT",
+               "8FYX",
+               "8JSP",
+               "8JT6",
+               "8PJK",
+               "8PKM",
+               "8W8B",
+               "9DYD",
+               "9DYE",
+               "9DYF",
+               "9GL2",
+               "9MD1"
+            ]
+         },
+         {
+            "gene_name": "HSD17B1",
+            "uniprot_id": "P14061",
+            "protein_name": "17-beta-hydroxysteroid dehydrogenase type 1",
+            "alternative_names": [
+               "17-beta-HSD 1",
+               "EC 1.1.1.51",
+               "20 alpha-hydroxysteroid dehydrogenase",
+               "20-alpha-HSD",
+               "E2DH",
+               "Estradiol 17-beta-dehydrogenase 1",
+               "EC 1.1.1.62",
+               "Placental 17-beta-hydroxysteroid dehydrogenase",
+               "Short chain dehydrogenase/reductase family 28C member 1"
+            ],
+            "sequence_length": 328,
+            "pdb_structures": [
+               "1A27",
+               "1BHS",
+               "1DHT",
+               "1EQU",
+               "1FDS",
+               "1FDT",
+               "1FDU",
+               "1FDV",
+               "1FDW",
+               "1I5R",
+               "1IOL",
+               "1JTV",
+               "1QYV",
+               "1QYW",
+               "1QYX",
+               "3DEY",
+               "3DHE",
+               "3HB4",
+               "3HB5",
+               "3KLM",
+               "3KLP",
+               "3KM0",
+               "6CGC",
+               "6CGE",
+               "6DTP",
+               "6MNC",
+               "6MNE",
+               "7X3Z"
+            ]
+         }
+      ],
+      "uniprot_id": "P08727",
+      "protein_name": "Keratin, type I cytoskeletal 19",
+      "alternative_names": [
+         "Cytokeratin-19",
+         "CK-19",
+         "Keratin-19",
+         "K19"
+      ],
+      "function": "FUNCTION: Involved in the organization of myofibers. Together with KRT8, helps to link the contractile apparatus to dystrophin at the costameres of striated muscle. {ECO:0000269|PubMed:16000376}.",
+      "sequence_length": 400,
+      "subcellular_location": null,
+      "pdb_structures": [
+         "8XTN",
+         "8XTO",
+         "8Y3S",
+         "8ZG2",
+         "8ZG3",
+         "8ZG4",
+         "8ZP3",
+         "8ZUG"
+      ]
+   },
+   "PSTPIP2": {
+      "gene_name": "PSTPIP2",
+      "tier": "tier-1",
+      "lfc_mean": 2.328913,
+      "proba_m1": 0.9764,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q9H939",
+      "protein_name": "Proline-serine-threonine phosphatase-interacting protein 2",
+      "alternative_names": [
+         "PEST phosphatase-interacting protein 2"
+      ],
+      "function": "FUNCTION: Binds to F-actin. May be involved in regulation of the actin cytoskeleton (By similarity). {ECO:0000250}.",
+      "sequence_length": 334,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Membrane {ECO:0000250}; Peripheral membrane protein {ECO:0000250}.",
+      "pdb_structures": []
+   },
+   "SCD": {
+      "gene_name": "SCD",
+      "tier": "tier-1",
+      "lfc_mean": 2.301545,
+      "proba_m1": 0.977,
+      "scenario": "A",
+      "regulating_tf": "RARA",
+      "soldier_genes": [
+         {
+            "gene_name": "THBD",
+            "uniprot_id": "P07204",
+            "protein_name": "Thrombomodulin",
+            "alternative_names": [
+               "TM",
+               "Fetomodulin",
+               "CD antigen CD141"
+            ],
+            "sequence_length": 575,
+            "pdb_structures": [
+               "1ADX",
+               "1DQB",
+               "1DX5",
+               "1EGT",
+               "1FGD",
+               "1FGE",
+               "1HLT",
+               "1TMR",
+               "1ZAQ",
+               "2ADX",
+               "3GIS",
+               "5TO3",
+               "7T4R"
+            ]
+         },
+         {
+            "gene_name": "PRKCA",
+            "uniprot_id": "P17252",
+            "protein_name": "Protein kinase C alpha type",
+            "alternative_names": [
+               "PKC-A",
+               "PKC-alpha",
+               "EC 2.7.11.13"
+            ],
+            "sequence_length": 672,
+            "pdb_structures": [
+               "2ELI",
+               "3IW4",
+               "4DNL",
+               "4RA4",
+               "8U37",
+               "8UAK"
+            ]
+         },
+         {
+            "gene_name": "ETS1",
+            "uniprot_id": "P14921",
+            "protein_name": "Protein C-ets-1",
+            "alternative_names": [
+               "p54"
+            ],
+            "sequence_length": 441,
+            "pdb_structures": [
+               "1GVJ",
+               "2NNY",
+               "2STT",
+               "2STW",
+               "3MFK",
+               "3RI4",
+               "3WTS",
+               "3WTT",
+               "3WTU",
+               "3WTV",
+               "3WTW",
+               "3WTX",
+               "3WTY",
+               "3WTZ",
+               "3WU0",
+               "3WU1",
+               "4L0Y",
+               "4L0Z",
+               "4L18",
+               "4LG0",
+               "5ZMC"
+            ]
+         },
+         {
+            "gene_name": "HNF4A",
+            "uniprot_id": "P41235",
+            "protein_name": "Hepatocyte nuclear factor 4-alpha",
+            "alternative_names": [
+               "HNF-4-alpha",
+               "Nuclear receptor subfamily 2 group A member 1",
+               "Transcription factor 14",
+               "TCF-14",
+               "Transcription factor HNF-4"
+            ],
+            "sequence_length": 474,
+            "pdb_structures": [
+               "1PZL",
+               "3CBB",
+               "3FS1",
+               "4B7W",
+               "4IQR",
+               "6CHT",
+               "8C1L",
+               "9IBR"
+            ]
+         },
+         {
+            "gene_name": "ICAM1",
+            "uniprot_id": "P05362",
+            "protein_name": "Intercellular adhesion molecule 1",
+            "alternative_names": [
+               "ICAM-1",
+               "Major group rhinovirus receptor",
+               "CD antigen CD54"
+            ],
+            "sequence_length": 532,
+            "pdb_structures": [
+               "1D3E",
+               "1D3I",
+               "1D3L",
+               "1IAM",
+               "1IC1",
+               "1MQ8",
+               "1P53",
+               "1Z7Z",
+               "2OZ4",
+               "3TCX",
+               "5MZA",
+               "6EIT",
+               "6S8U",
+               "7BG7"
+            ]
+         },
+         {
+            "gene_name": "HSD17B2",
+            "uniprot_id": "P37059",
+            "protein_name": "17-beta-hydroxysteroid dehydrogenase type 2",
+            "alternative_names": [
+               "17-beta-HSD 2",
+               "20 alpha-hydroxysteroid dehydrogenase",
+               "20-alpha-HSD",
+               "E2DH",
+               "Estradiol 17-beta-dehydrogenase 2",
+               "EC 1.1.1.62",
+               "Microsomal 17-beta-hydroxysteroid dehydrogenase",
+               "Short chain dehydrogenase/reductase family 9C member 2",
+               "Testosterone 17-beta-dehydrogenase",
+               "EC 1.1.1.239"
+            ],
+            "sequence_length": 387,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "NR1I3",
+            "uniprot_id": "Q14994",
+            "protein_name": "Nuclear receptor subfamily 1 group I member 3",
+            "alternative_names": [
+               "Constitutive activator of retinoid response",
+               "Constitutive active response",
+               "Constitutive androstane receptor",
+               "CAR",
+               "Orphan nuclear receptor MB67"
+            ],
+            "sequence_length": 352,
+            "pdb_structures": [
+               "1XV9",
+               "1XVP"
+            ]
+         },
+         {
+            "gene_name": "GPRC5A",
+            "uniprot_id": "Q8NFJ5",
+            "protein_name": "Retinoic acid-induced protein 3",
+            "alternative_names": [
+               "G-protein coupled receptor family C group 5 member A",
+               "Phorbol ester induced gene 1",
+               "PEIG-1",
+               "Retinoic acid-induced gene 1 protein",
+               "RAIG-1"
+            ],
+            "sequence_length": 357,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "NRIP1",
+            "uniprot_id": "P48552",
+            "protein_name": "Nuclear receptor-interacting protein 1",
+            "alternative_names": [
+               "Nuclear factor RIP140",
+               "Receptor-interacting protein 140"
+            ],
+            "sequence_length": 1158,
+            "pdb_structures": [
+               "2GPO",
+               "2GPP",
+               "4S14",
+               "4S15",
+               "5NTI",
+               "5NTN",
+               "5NTW",
+               "5NU1",
+               "6FZU",
+               "6G05",
+               "6G07",
+               "9CWN",
+               "9KNC",
+               "9KND",
+               "9KNE",
+               "9KNF",
+               "9KNG"
+            ]
+         },
+         {
+            "gene_name": "TPO",
+            "uniprot_id": "P07202",
+            "protein_name": "Thyroid peroxidase",
+            "alternative_names": [
+               "TPO",
+               "EC 1.11.1.8"
+            ],
+            "sequence_length": 933,
+            "pdb_structures": []
+         }
+      ],
+      "uniprot_id": "O00767",
+      "protein_name": "Stearoyl-CoA desaturase",
+      "alternative_names": [
+         "hSCD1",
+         "EC 1.14.19.1",
+         "Acyl-CoA desaturase",
+         "Delta(9",
+         "Delta-9 desaturase",
+         "Fatty acid desaturase"
+      ],
+      "function": "FUNCTION: Stearoyl-CoA desaturase that utilizes O(2) and electrons from reduced cytochrome b5 to introduce the first double bond into saturated fatty acyl-CoA substrates (PubMed:15907797, PubMed:18765284). Catalyzes the insertion of a cis double bond at the delta-9 position into fatty acyl-CoA substrates including palmitoyl-CoA and stearoyl-CoA (PubMed:15907797, PubMed:18765284). Gives rise to a mixture of 16:1 and 18:1 unsaturated fatty acids (PubMed:15610069). Plays an important role in lipid biosynthesis. Plays an important role in regulating the expression of genes that are involved in lipogenesis and in regulating mitochondrial fatty acid oxidation (By similarity). Plays an important role in body energy homeostasis (By similarity). Contributes to the biosynthesis of membrane phospholipids, cholesterol esters and triglycerides (By similarity). {ECO:0000250|UniProtKB:P13516, ECO:0000269|PubMed:15610069, ECO:0000269|PubMed:15907797, ECO:0000269|PubMed:18765284}.",
+      "sequence_length": 359,
+      "subcellular_location": "SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000269|PubMed:15907797}; Multi-pass membrane protein {ECO:0000269|PubMed:18765284, ECO:0000305}.",
+      "pdb_structures": [
+         "4ZYO"
+      ]
+   },
+   "MT1A": {
+      "gene_name": "MT1A",
+      "tier": "tier-2",
+      "lfc_mean": 2.880389,
+      "proba_m1": 0.8682,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P04731",
+      "protein_name": "Metallothionein-1A",
+      "alternative_names": [
+         "MT-1A",
+         "Metallothionein-IA",
+         "MT-IA"
+      ],
+      "function": "FUNCTION: Metallothioneins have a high content of cysteine residues that bind various heavy metals; these proteins are transcriptionally regulated by both heavy metals and glucocorticoids.",
+      "sequence_length": 61,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "SFTA1P": {
+      "gene_name": "SFTA1P",
+      "tier": "tier-2",
+      "lfc_mean": 2.5433514,
+      "proba_m1": 0.8918,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": null,
+      "protein_name": null,
+      "alternative_names": [],
+      "function": null,
+      "sequence_length": null,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "GACAT2": {
+      "gene_name": "GACAT2",
+      "tier": "tier-2",
+      "lfc_mean": 2.5335643,
+      "proba_m1": 0.8598,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": null,
+      "protein_name": null,
+      "alternative_names": [],
+      "function": null,
+      "sequence_length": null,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "LDLR": {
+      "gene_name": "LDLR",
+      "tier": "tier-2",
+      "lfc_mean": 2.3804502,
+      "proba_m1": 0.816,
+      "scenario": "A",
+      "regulating_tf": "HNF4A",
+      "soldier_genes": [
+         {
+            "gene_name": "TCF7L2",
+            "uniprot_id": "Q9NQB0",
+            "protein_name": "Transcription factor 7-like 2",
+            "alternative_names": [
+               "HMG box transcription factor 4",
+               "T-cell-specific transcription factor 4",
+               "T-cell factor 4",
+               "TCF-4",
+               "hTCF-4"
+            ],
+            "sequence_length": 619,
+            "pdb_structures": [
+               "1JDH",
+               "1JPW",
+               "2GL7"
+            ]
+         },
+         {
+            "gene_name": "TBP",
+            "uniprot_id": "P20226",
+            "protein_name": "TATA-box-binding protein",
+            "alternative_names": [
+               "TATA sequence-binding protein",
+               "TATA-binding factor",
+               "TATA-box factor",
+               "Transcription initiation factor TFIID TBP subunit"
+            ],
+            "sequence_length": 339,
+            "pdb_structures": [
+               "1C9B",
+               "1CDW",
+               "1JFI",
+               "1NVP",
+               "1TGH",
+               "4ROC",
+               "4ROD",
+               "4ROE",
+               "5FUR",
+               "5IY6",
+               "5IY7",
+               "5IY8",
+               "5IY9",
+               "5IYA",
+               "5IYB",
+               "5IYC",
+               "5IYD",
+               "5N9G",
+               "6MZD",
+               "6MZL",
+               "6MZM",
+               "6O9L",
+               "7EDX",
+               "7EG7",
+               "7EG8",
+               "7EG9",
+               "7EGA",
+               "7EGB",
+               "7EGC",
+               "7EGD",
+               "7EGE",
+               "7EGF",
+               "7EGI",
+               "7EGJ",
+               "7ENA",
+               "7ENC",
+               "7LBM",
+               "7NVR",
+               "7NVS",
+               "7NVT",
+               "7NVU",
+               "7NVY",
+               "7NVZ",
+               "7NW0",
+               "7ZWC",
+               "7ZWD",
+               "7ZX7",
+               "7ZX8",
+               "7ZXE",
+               "8BVW",
+               "8BYQ",
+               "8BZ1",
+               "8GXQ",
+               "8GXS",
+               "8ITY",
+               "8IUE",
+               "8IUH",
+               "8S51",
+               "8S52",
+               "8S5N",
+               "8WAK",
+               "8WAL",
+               "8WAN",
+               "8WAO",
+               "8WAP",
+               "8WAQ",
+               "8WAR",
+               "8WAS",
+               "9FSO",
+               "9FSP",
+               "9FSQ",
+               "9FSR",
+               "9FSS",
+               "9K3B",
+               "9K3U",
+               "9K3V",
+               "9LXN"
+            ]
+         },
+         {
+            "gene_name": "SERPINC1",
+            "uniprot_id": "P01008",
+            "protein_name": "Antithrombin-III",
+            "alternative_names": [
+               "ATIII",
+               "Serpin C1"
+            ],
+            "sequence_length": 464,
+            "pdb_structures": [
+               "1ANT",
+               "1ATH",
+               "1AZX",
+               "1BR8",
+               "1DZG",
+               "1DZH",
+               "1E03",
+               "1E04",
+               "1E05",
+               "1JVQ",
+               "1LK6",
+               "1NQ9",
+               "1OYH",
+               "1R1L",
+               "1SR5",
+               "1T1F",
+               "1TB6",
+               "2ANT",
+               "2B4X",
+               "2B5T",
+               "2BEH",
+               "2GD4",
+               "2HIJ",
+               "2ZNH",
+               "3EVJ",
+               "3KCG",
+               "4EB1"
+            ]
+         },
+         {
+            "gene_name": "PCSK9",
+            "uniprot_id": "Q8NBP7",
+            "protein_name": "Proprotein convertase subtilisin/kexin type 9",
+            "alternative_names": [
+               "EC 3.4.21.-",
+               "Neural apoptosis-regulated convertase 1",
+               "NARC-1",
+               "Proprotein convertase 9",
+               "PC9",
+               "Subtilisin/kexin-like protease PC9"
+            ],
+            "sequence_length": 692,
+            "pdb_structures": [
+               "2P4E",
+               "2PMW",
+               "2QTW",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "2XTJ",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3H42",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SQO",
+               "4K8R",
+               "4NE9",
+               "4NMX",
+               "4OV6",
+               "5OCA",
+               "5VL7",
+               "5VLA",
+               "5VLH",
+               "5VLK",
+               "5VLL",
+               "5VLP",
+               "6E4Y",
+               "6E4Z",
+               "6MV5",
+               "6OLZ",
+               "6OM0",
+               "6OM7",
+               "6U26",
+               "6U2F",
+               "6U2N",
+               "6U2P",
+               "6U36",
+               "6U38",
+               "6U3I",
+               "6U3X",
+               "6XIB",
+               "6XIC",
+               "6XID",
+               "6XIE",
+               "6XIF",
+               "7ANQ",
+               "7KEV",
+               "7KFA",
+               "7S5G",
+               "7S5H",
+               "8FPO",
+               "8FPQ",
+               "8FVL",
+               "8FVM",
+               "8FVN",
+               "8FVO",
+               "8FVP",
+               "8FVQ",
+               "8VDV",
+               "8WFR"
+            ]
+         },
+         {
+            "gene_name": "GPR39",
+            "uniprot_id": "O43194",
+            "protein_name": "G-protein coupled receptor 39",
+            "alternative_names": [],
+            "sequence_length": 453,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "CEACAM1",
+            "uniprot_id": "P13688",
+            "protein_name": "Cell adhesion molecule CEACAM1",
+            "alternative_names": [
+               "Biliary glycoprotein 1",
+               "BGP-1",
+               "Carcinoembryonic antigen-related cell adhesion molecule 1",
+               "CEA cell adhesion molecule 1",
+               "CD antigen CD66a"
+            ],
+            "sequence_length": 526,
+            "pdb_structures": [
+               "2GK2",
+               "4QXW",
+               "4WHD",
+               "5DZL",
+               "6AW2",
+               "6GBG",
+               "6GBH",
+               "6V3P",
+               "6XNO",
+               "6XNT",
+               "6XNW",
+               "6XO1",
+               "7MU8",
+               "7RPP",
+               "8CXJ",
+               "9GH5",
+               "9GH6"
+            ]
+         },
+         {
+            "gene_name": "AKR1C4",
+            "uniprot_id": "P17516",
+            "protein_name": "Aldo-keto reductase family 1 member C4",
+            "alternative_names": [
+               "EC 1.1.1.-",
+               "EC 1.1.1.209",
+               "EC 1.1.1.210",
+               "EC 1.1.1.51",
+               "EC 1.1.1.53",
+               "EC 1.1.1.62",
+               "3-alpha-hydroxysteroid 3-dehydrogenase type I",
+               "3-alpha-HSD1",
+               "EC 1.1.1.357",
+               "Chlordecone reductase",
+               "CDR",
+               "EC 1.1.1.225",
+               "Dihydrodiol dehydrogenase 4",
+               "DD-4",
+               "DD4",
+               "HAKRA"
+            ],
+            "sequence_length": 323,
+            "pdb_structures": [
+               "2FVL"
+            ]
+         },
+         {
+            "gene_name": "CEBPA",
+            "uniprot_id": "P49715",
+            "protein_name": "CCAAT/enhancer-binding protein alpha",
+            "alternative_names": [
+               "C/EBP alpha"
+            ],
+            "sequence_length": 358,
+            "pdb_structures": [
+               "6DC0",
+               "8K8C"
+            ]
+         },
+         {
+            "gene_name": "FABP2",
+            "uniprot_id": "P12104",
+            "protein_name": "Fatty acid-binding protein, intestinal",
+            "alternative_names": [
+               "Fatty acid-binding protein 2",
+               "Intestinal-type fatty acid-binding protein",
+               "I-FABP"
+            ],
+            "sequence_length": 132,
+            "pdb_structures": [
+               "1KZW",
+               "1KZX",
+               "2MJI",
+               "2MO5",
+               "3AKM",
+               "3IFB",
+               "6L7K"
+            ]
+         },
+         {
+            "gene_name": "AFP",
+            "uniprot_id": "P02771",
+            "protein_name": "Alpha-fetoprotein",
+            "alternative_names": [
+               "Alpha-1-fetoprotein",
+               "Alpha-fetoglobulin"
+            ],
+            "sequence_length": 609,
+            "pdb_structures": [
+               "3MRK",
+               "7RE7",
+               "7RE8",
+               "7YIM",
+               "8X1N"
+            ]
+         }
+      ],
+      "uniprot_id": "P01130",
+      "protein_name": "Low-density lipoprotein receptor",
+      "alternative_names": [
+         "LDL receptor"
+      ],
+      "function": "FUNCTION: Binds low density lipoprotein /LDL, the major cholesterol-carrying lipoprotein of plasma, and transports it into cells by endocytosis. In order to be internalized, the receptor-ligand complexes must first cluster into clathrin-coated pits. Forms a ternary complex with PGRMC1 and TMEM97 receptors which increases LDLR-mediated LDL internalization (PubMed:30443021). {ECO:0000269|PubMed:3005267, ECO:0000269|PubMed:30443021, ECO:0000269|PubMed:6091915}.; FUNCTION: (Microbial infection) Acts as a receptor for hepatitis C virus in hepatocytes, but not through a direct interaction with viral proteins. {ECO:0000269|PubMed:10535997, ECO:0000269|PubMed:12615904}.; FUNCTION: (Microbial infection) Acts as a receptor for Vesicular stomatitis virus. {ECO:0000269|PubMed:23589850}.; FUNCTION: (Microbial infection) In case of HIV-1 infection, may function as a receptor for extracellular Tat in neurons, mediating its internalization in uninfected cells. {ECO:0000269|PubMed:11100124}.; FUNCTION: (Microbial infection) Acts as a receptor for Crimean-Congo hemorrhagic fever virus (CCHFV). {ECO:0000269|PubMed:38182887}.; FUNCTION: (Microbial infection) Acts as a receptor for many Alphavirus, including Getah virus (GETV), Ross river virus (RRV) and Semliki Forest virus. {ECO:0000269|PubMed:38245515}.",
+      "sequence_length": 860,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:17461796, ECO:0000269|PubMed:19520913}; Single-pass type I membrane protein {ECO:0000250|UniProtKB:P01131}. Membrane, clathrin-coated pit {ECO:0000303|PubMed:6091915}. Golgi apparatus {ECO:0000269|PubMed:17461796}. Early endosome {ECO:0000269|PubMed:17461796}. Late endosome {ECO:0000269|PubMed:17461796}. Lysosome {ECO:0000269|PubMed:17461796}. Note=Rapidly endocytosed upon ligand binding. Localized at cell membrane, probably in lipid rafts, in serum-starved conditions (PubMed:30443021). {ECO:0000269|PubMed:30443021, ECO:0000269|PubMed:3104336}.",
+      "pdb_structures": [
+         "1AJJ",
+         "1D2J",
+         "1F5Y",
+         "1F8Z",
+         "1HJ7",
+         "1HZ8",
+         "1I0U",
+         "1IJQ",
+         "1LDL",
+         "1LDR",
+         "1N7D",
+         "1XFE",
+         "2FCW",
+         "2KRI",
+         "2LGP",
+         "2M7P",
+         "2MG9",
+         "2W2M",
+         "2W2N",
+         "2W2O",
+         "2W2P",
+         "2W2Q",
+         "3BPS",
+         "3GCW",
+         "3GCX",
+         "3M0C",
+         "3P5B",
+         "3P5C",
+         "3SO6",
+         "4NE9",
+         "5OY9",
+         "5OYL",
+         "9BD8",
+         "9BDE",
+         "9BDT",
+         "9COO"
+      ]
+   },
+   "NPPB": {
+      "gene_name": "NPPB",
+      "tier": "tier-2",
+      "lfc_mean": 2.3640058,
+      "proba_m1": 0.8942,
+      "scenario": "A",
+      "regulating_tf": "HIF1A",
+      "soldier_genes": [
+         {
+            "gene_name": "SOCS1",
+            "uniprot_id": "O15524",
+            "protein_name": "Suppressor of cytokine signaling 1",
+            "alternative_names": [
+               "SOCS-1",
+               "JAK-binding protein",
+               "JAB",
+               "STAT-induced STAT inhibitor 1",
+               "SSI-1",
+               "Tec-interacting protein 3",
+               "TIP-3"
+            ],
+            "sequence_length": 211,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "PPP1R3C",
+            "uniprot_id": "Q9UQK1",
+            "protein_name": "Protein phosphatase 1 regulatory subunit 3C",
+            "alternative_names": [
+               "Protein phosphatase 1 regulatory subunit 5",
+               "PP1 subunit R5",
+               "Protein targeting to glycogen",
+               "PTG"
+            ],
+            "sequence_length": 317,
+            "pdb_structures": [
+               "7QF7",
+               "7QFA",
+               "7QFB",
+               "7QM2"
+            ]
+         },
+         {
+            "gene_name": "NR3C1",
+            "uniprot_id": "P04150",
+            "protein_name": "Glucocorticoid receptor",
+            "alternative_names": [
+               "GR",
+               "Nuclear receptor subfamily 3 group C member 1"
+            ],
+            "sequence_length": 777,
+            "pdb_structures": [
+               "1M2Z",
+               "1NHZ",
+               "1P93",
+               "3BQD",
+               "3CLD",
+               "3E7C",
+               "3H52",
+               "3K22",
+               "3K23",
+               "4CSJ",
+               "4HN5",
+               "4HN6",
+               "4LSJ",
+               "4MDD",
+               "4P6W",
+               "4P6X",
+               "4UDC",
+               "4UDD",
+               "5CBX",
+               "5CBY",
+               "5CBZ",
+               "5CC1",
+               "5E69",
+               "5E6A",
+               "5E6B",
+               "5E6C",
+               "5E6D",
+               "5EMC",
+               "5EMP",
+               "5EMQ",
+               "5G3J",
+               "5G5W",
+               "5NFP",
+               "5NFT",
+               "5UC1",
+               "5UC3",
+               "5VA0",
+               "5VA7",
+               "6BQU",
+               "6CFN",
+               "6DXK",
+               "6EL6",
+               "6EL7",
+               "6EL9",
+               "6X6D",
+               "6X6E",
+               "6YMO",
+               "6YO8",
+               "6YOS",
+               "7KRJ",
+               "7KW7",
+               "7PRV",
+               "7PRW",
+               "7PRX",
+               "8A9G",
+               "8FFV",
+               "8FFW",
+               "8VKZ"
+            ]
+         },
+         {
+            "gene_name": "FAM162A",
+            "uniprot_id": "Q96A26",
+            "protein_name": "Protein FAM162A",
+            "alternative_names": [
+               "E2-induced gene 5 protein",
+               "Growth and transformation-dependent protein",
+               "HGTD-P"
+            ],
+            "sequence_length": 154,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "ENO1",
+            "uniprot_id": "P06733",
+            "protein_name": "Alpha-enolase",
+            "alternative_names": [
+               "EC 4.2.1.11",
+               "2-phospho-D-glycerate hydro-lyase",
+               "C-myc promoter-binding protein",
+               "Enolase 1",
+               "MBP-1",
+               "MPB-1",
+               "Non-neural enolase",
+               "NNE",
+               "Phosphopyruvate hydratase",
+               "Plasminogen-binding protein"
+            ],
+            "sequence_length": 434,
+            "pdb_structures": [
+               "2PSN",
+               "3B97",
+               "5JLZ",
+               "5LAX",
+               "5NI9",
+               "5NIG",
+               "5OCK",
+               "8TRL"
+            ]
+         },
+         {
+            "gene_name": "E2F3",
+            "uniprot_id": "O00716",
+            "protein_name": "Transcription factor E2F3",
+            "alternative_names": [
+               "E2F-3"
+            ],
+            "sequence_length": 465,
+            "pdb_structures": []
+         },
+         {
+            "gene_name": "MIF",
+            "uniprot_id": "P03971",
+            "protein_name": "Anti-Muellerian hormone",
+            "alternative_names": [
+               "AMH",
+               "Muellerian-inhibiting factor",
+               "Muellerian-inhibiting substance",
+               "MIS"
+            ],
+            "sequence_length": 560,
+            "pdb_structures": [
+               "7L0J",
+               "9BAN",
+               "9BAO"
+            ]
+         },
+         {
+            "gene_name": "CXCL12",
+            "uniprot_id": "P48061",
+            "protein_name": "Stromal cell-derived factor 1",
+            "alternative_names": [
+               "SDF-1",
+               "hSDF-1",
+               "C-X-C motif chemokine 12",
+               "Intercrine reduced in hepatomas",
+               "IRH",
+               "hIRH",
+               "Pre-B cell growth-stimulating factor",
+               "PBSF",
+               "3-72",
+               "3-67"
+            ],
+            "sequence_length": 93,
+            "pdb_structures": [
+               "1A15",
+               "1QG7",
+               "1SDF",
+               "1VMC",
+               "2J7Z",
+               "2K01",
+               "2K03",
+               "2K04",
+               "2K05",
+               "2KEC",
+               "2KED",
+               "2KEE",
+               "2KOL",
+               "2N55",
+               "2NWG",
+               "2SDF",
+               "3GV3",
+               "3HP3",
+               "4LMQ",
+               "4UAI",
+               "6SHR",
+               "7SK3",
+               "7SK4",
+               "7SK5",
+               "7SK6",
+               "7SK7",
+               "7SK8",
+               "8K3Z",
+               "8U4O",
+               "9E82"
+            ]
+         },
+         {
+            "gene_name": "TLR2",
+            "uniprot_id": "O60603",
+            "protein_name": "Toll-like receptor 2",
+            "alternative_names": [
+               "Toll/interleukin-1 receptor-like protein 4",
+               "CD antigen CD282"
+            ],
+            "sequence_length": 784,
+            "pdb_structures": [
+               "1FYW",
+               "1FYX",
+               "1O77",
+               "2Z7X",
+               "2Z80",
+               "6NIG",
+               "8AR0"
+            ]
+         },
+         {
+            "gene_name": "TLR6",
+            "uniprot_id": "Q9Y2C9",
+            "protein_name": "Toll-like receptor 6",
+            "alternative_names": [
+               "CD antigen CD286"
+            ],
+            "sequence_length": 796,
+            "pdb_structures": [
+               "4OM7"
+            ]
+         }
+      ],
+      "uniprot_id": "P16860",
+      "protein_name": "Natriuretic peptides B",
+      "alternative_names": [
+         "Brain natriuretic factor prohormone",
+         "preproBNP",
+         "proBNP",
+         "Gamma-brain natriuretic peptide",
+         "Iso-ANP",
+         "NT-pro-BNP",
+         "NT-proBNP(1-76",
+         "3-108",
+         "BNP(1-32",
+         "BNP-32",
+         "Brain natriuretic peptide",
+         "BNP",
+         "1-30",
+         "1-29",
+         "1-28",
+         "2-31",
+         "3-32",
+         "des-SerPro-BNP",
+         "proBNP(79-108",
+         "3-30",
+         "3-29",
+         "BNP(4-32",
+         "4-31",
+         "4-30",
+         "4-29",
+         "4-27",
+         "5-32",
+         "5-31",
+         "5-29"
+      ],
+      "function": "FUNCTION: [Brain natriuretic peptide 32]: Cardiac hormone that plays a key role in mediating cardio-renal homeostasis (PubMed:1672777, PubMed:17372040, PubMed:1914098, PubMed:9458824). May also function as a paracrine antifibrotic factor in the heart (By similarity). Acts by specifically binding and stimulating NPR1 to produce cGMP, which in turn activates effector proteins that drive various biological responses (PubMed:1672777, PubMed:17349887, PubMed:17372040, PubMed:21098034, PubMed:25339504, PubMed:9458824). Involved in regulating the extracellular fluid volume and maintaining the fluid-electrolyte balance through natriuresis, diuresis, vasorelaxation, and inhibition of renin and aldosterone secretion (PubMed:1914098, PubMed:9458824). Binds the clearance receptor NPR3 (PubMed:16870210). {ECO:0000250|UniProtKB:P40753, ECO:0000269|PubMed:1672777, ECO:0000269|PubMed:16870210, ECO:0000269|PubMed:17349887, ECO:0000269|PubMed:17372040, ECO:0000269|PubMed:1914098, ECO:0000269|PubMed:21098034, ECO:0000269|PubMed:25339504, ECO:0000269|PubMed:9458824}.; FUNCTION: [NT-proBNP]: May affect cardio-renal homeostasis (PubMed:17372040). Able to promote the production of cGMP although its potency is very low compared to brain natriuretic peptide 32 (PubMed:17372040). {ECO:0000269|PubMed:17372040}.; FUNCTION: [BNP(3-32)]: May have a role in cardio-renal homeostasis (PubMed:17372040). Able to promote the production of cGMP (PubMed:17372040). {ECO:0000269|PubMed:17372040}.",
+      "sequence_length": 134,
+      "subcellular_location": "SUBCELLULAR LOCATION: [NT-proBNP]: Secreted {ECO:0000269|PubMed:18466803, ECO:0000269|PubMed:25339504}. Note=Detected in blood. {ECO:0000269|PubMed:18466803, ECO:0000269|PubMed:25339504}.; SUBCELLULAR LOCATION: [proBNP(3-108)]: Secreted {ECO:0000269|PubMed:17367664}. Note=Detected in blood. {ECO:0000269|PubMed:17367664}.; SUBCELLULAR LOCATION: [Brain natriuretic peptide 32]: Secreted {ECO:0000269|PubMed:17367664, ECO:0000269|PubMed:18466803, ECO:0000269|PubMed:1914098, ECO:0000269|PubMed:25339504}. Note=Detected in blood. {ECO:0000269|PubMed:17367664, ECO:0000269|PubMed:18466803, ECO:0000269|PubMed:1914098, ECO:0000269|PubMed:25339504}.; SUBCELLULAR LOCATION: [BNP(3-32)]: Secreted {ECO:0000269|PubMed:17367664}. Note=Detected in blood. {ECO:0000269|PubMed:17367664}.",
+      "pdb_structures": [
+         "1YK1",
+         "3N56"
+      ]
+   },
+   "NPTX2": {
+      "gene_name": "NPTX2",
+      "tier": "tier-2",
+      "lfc_mean": 2.2136424,
+      "proba_m1": 0.864,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P47972",
+      "protein_name": "Neuronal pentraxin-2",
+      "alternative_names": [
+         "NP2",
+         "Neuronal pentraxin II",
+         "NP-II"
+      ],
+      "function": "FUNCTION: Likely to play role in the modification of cellular properties that underlie long-term plasticity. Binds to agar matrix in a calcium-dependent manner (By similarity). {ECO:0000250}.",
+      "sequence_length": 431,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000250}.",
+      "pdb_structures": []
+   },
+   "C5AR1": {
+      "gene_name": "C5AR1",
+      "tier": "tier-2",
+      "lfc_mean": 2.1080716,
+      "proba_m1": 0.7566,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P21730",
+      "protein_name": "C5a anaphylatoxin chemotactic receptor 1",
+      "alternative_names": [
+         "C5a anaphylatoxin chemotactic receptor",
+         "C5a-R",
+         "C5aR",
+         "CD antigen CD88"
+      ],
+      "function": "FUNCTION: Receptor for the chemotactic and inflammatory peptide anaphylatoxin C5a, stimulating chemotaxis, granule enzyme release, intracellular calcium release and superoxide anion production (PubMed:10636859, PubMed:15153520, PubMed:1847994, PubMed:29300009, PubMed:36806352, PubMed:7622471, PubMed:8182049, PubMed:9553099). Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and modulates the activity of downstream effectors, such as adenylate cyclase (PubMed:36806352, PubMed:37852260). C5AR1 is coupled to G(i)/G(o) (GNAI1 or GNAO1) G alpha proteins and mediates inhibition of adenylate cyclase (PubMed:36806352, PubMed:37852260). The ligand interacts with at least two sites on the receptor: a high-affinity site on the extracellular N-terminus, and a second site in the transmembrane region which activates downstream signaling events (PubMed:7622471, PubMed:8182049, PubMed:9553099). {ECO:0000269|PubMed:10636859, ECO:0000269|PubMed:15153520, ECO:0000269|PubMed:1847994, ECO:0000269|PubMed:29300009, ECO:0000269|PubMed:36806352, ECO:0000269|PubMed:37852260, ECO:0000269|PubMed:7622471, ECO:0000269|PubMed:8182049, ECO:0000269|PubMed:9553099}.",
+      "sequence_length": 350,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:12464600, ECO:0000269|PubMed:29300009}; Multi-pass membrane protein {ECO:0000269|PubMed:29300009}. Cytoplasmic vesicle {ECO:0000269|PubMed:12464600}. Note=Phosphorylated C5aR colocalizes with ARRB1 and ARRB2 in cytoplasmic vesicles. {ECO:0000269|PubMed:12464600}.",
+      "pdb_structures": [
+         "2K3U",
+         "5O9H",
+         "6C1Q",
+         "6C1R",
+         "7Y64",
+         "7Y65",
+         "7Y66",
+         "7Y67",
+         "8GO8",
+         "8GOO",
+         "8HK5",
+         "8I0N",
+         "8I0Z",
+         "8IA2",
+         "8JZP",
+         "8JZZ"
+      ]
+   },
+   "PTGES": {
+      "gene_name": "PTGES",
+      "tier": "tier-2",
+      "lfc_mean": 2.077707,
+      "proba_m1": 0.7966,
+      "scenario": "A",
+      "regulating_tf": "EGR1",
+      "soldier_genes": [
+         {
+            "gene_name": "LDLR",
+            "uniprot_id": "P01130",
+            "protein_name": "Low-density lipoprotein receptor",
+            "alternative_names": [
+               "LDL receptor"
+            ],
+            "sequence_length": 860,
+            "pdb_structures": [
+               "1AJJ",
+               "1D2J",
+               "1F5Y",
+               "1F8Z",
+               "1HJ7",
+               "1HZ8",
+               "1I0U",
+               "1IJQ",
+               "1LDL",
+               "1LDR",
+               "1N7D",
+               "1XFE",
+               "2FCW",
+               "2KRI",
+               "2LGP",
+               "2M7P",
+               "2MG9",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SO6",
+               "4NE9",
+               "5OY9",
+               "5OYL",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO"
+            ]
+         },
+         {
+            "gene_name": "AREG",
+            "uniprot_id": "P15514",
+            "protein_name": "Amphiregulin",
+            "alternative_names": [
+               "AR",
+               "Colorectum cell-derived growth factor",
+               "CRDGF"
+            ],
+            "sequence_length": 252,
+            "pdb_structures": [
+               "2RNL"
+            ]
+         },
+         {
+            "gene_name": "UBE2S",
+            "uniprot_id": "Q16763",
+            "protein_name": "Ubiquitin-conjugating enzyme E2 S",
+            "alternative_names": [
+               "EC 2.3.2.23",
+               "E2 ubiquitin-conjugating enzyme S",
+               "E2-EPF",
+               "Ubiquitin carrier protein S",
+               "Ubiquitin-conjugating enzyme E2-24 kDa",
+               "Ubiquitin-conjugating enzyme E2-EPF5",
+               "Ubiquitin-protein ligase S"
+            ],
+            "sequence_length": 222,
+            "pdb_structures": [
+               "1ZDN",
+               "5BNB",
+               "5L9T",
+               "6QH3",
+               "6QHK",
+               "6S96",
+               "6S98",
+               "7AHF",
+               "8TAU"
+            ]
+         },
+         {
+            "gene_name": "TOE1",
+            "uniprot_id": "Q96GM8",
+            "protein_name": "Target of EGR1 protein 1",
+            "alternative_names": [],
+            "sequence_length": 510,
+            "pdb_structures": [
+               "2FC6"
+            ]
+         },
+         {
+            "gene_name": "TFPI2",
+            "uniprot_id": "P48307",
+            "protein_name": "Tissue factor pathway inhibitor 2",
+            "alternative_names": [
+               "TFPI-2",
+               "Placental protein 5",
+               "PP5"
+            ],
+            "sequence_length": 235,
+            "pdb_structures": [
+               "1ZR0"
+            ]
+         },
+         {
+            "gene_name": "TCF4",
+            "uniprot_id": "Q9NQB0",
+            "protein_name": "Transcription factor 7-like 2",
+            "alternative_names": [
+               "HMG box transcription factor 4",
+               "T-cell-specific transcription factor 4",
+               "T-cell factor 4",
+               "TCF-4",
+               "hTCF-4"
+            ],
+            "sequence_length": 619,
+            "pdb_structures": [
+               "1JDH",
+               "1JPW",
+               "2GL7"
+            ]
+         },
+         {
+            "gene_name": "PTP4A1",
+            "uniprot_id": "Q93096",
+            "protein_name": "Protein tyrosine phosphatase type IVA 1",
+            "alternative_names": [
+               "EC 3.1.3.48",
+               "PTP(CAAXI",
+               "Protein-tyrosine phosphatase 4a1",
+               "Protein-tyrosine phosphatase of regenerating liver 1",
+               "PRL-1"
+            ],
+            "sequence_length": 173,
+            "pdb_structures": [
+               "1RXD",
+               "1XM2",
+               "5BX1",
+               "9MEX"
+            ]
+         },
+         {
+            "gene_name": "PTGS2",
+            "uniprot_id": "P35354",
+            "protein_name": "Prostaglandin G/H synthase 2",
+            "alternative_names": [
+               "EC 1.14.99.1",
+               "Cyclooxygenase-2",
+               "COX-2",
+               "PHS II",
+               "Prostaglandin H2 synthase 2",
+               "PGH synthase 2",
+               "PGHS-2",
+               "Prostaglandin-endoperoxide synthase 2"
+            ],
+            "sequence_length": 604,
+            "pdb_structures": [
+               "5F19",
+               "5F1A",
+               "5IKQ",
+               "5IKR",
+               "5IKT",
+               "5IKV",
+               "5KIR"
+            ]
+         },
+         {
+            "gene_name": "POR",
+            "uniprot_id": "P16435",
+            "protein_name": "NADPH--cytochrome P450 reductase",
+            "alternative_names": [
+               "CPR",
+               "P450R",
+               "EC 1.6.2.4"
+            ],
+            "sequence_length": 677,
+            "pdb_structures": [
+               "1B1C",
+               "3FJO",
+               "3QE2",
+               "3QFC",
+               "3QFR",
+               "3QFS",
+               "3QFT",
+               "5EMN",
+               "5FA6"
+            ]
+         },
+         {
+            "gene_name": "PLAUR",
+            "uniprot_id": "Q03405",
+            "protein_name": "Urokinase plasminogen activator surface receptor",
+            "alternative_names": [
+               "U-PAR",
+               "uPAR",
+               "Monocyte activation antigen Mo3",
+               "CD antigen CD87"
+            ],
+            "sequence_length": 335,
+            "pdb_structures": [
+               "1YWH",
+               "2FD6",
+               "2I9B",
+               "3BT1",
+               "3BT2",
+               "3U73",
+               "3U74",
+               "4K24",
+               "4QTI",
+               "7E17",
+               "7V63"
+            ]
+         }
+      ],
+      "uniprot_id": "O14684",
+      "protein_name": "Prostaglandin E synthase",
+      "alternative_names": [
+         "EC 5.3.99.3",
+         "Glutathione peroxidase PTGES",
+         "EC 1.11.1.-",
+         "Glutathione transferase PTGES",
+         "EC 2.5.1.18",
+         "Microsomal glutathione S-transferase 1-like 1",
+         "MGST1-L1",
+         "Microsomal prostaglandin E synthase 1",
+         "MPGES-1",
+         "p53-induced gene 12 protein"
+      ],
+      "function": "FUNCTION: Terminal enzyme of the cyclooxygenase (COX)-2-mediated prostaglandin E2 (PGE2) biosynthetic pathway. Catalyzes the glutathione-dependent oxidoreduction of prostaglandin endoperoxide H2 (PGH2) to prostaglandin E2 (PGE2) in response to inflammatory stimuli (PubMed:10377395, PubMed:10869354, PubMed:12244105, PubMed:12460774, PubMed:12672824, PubMed:18682561). Plays a key role in inflammation response, fever and pain (By similarity). Also catalyzes the oxidoreduction of endocannabinoids into prostaglandin glycerol esters and PGG2 into 15-hydroperoxy-PGE2 (PubMed:12244105, PubMed:12672824). In addition, displays low glutathione transferase and glutathione-dependent peroxidase activities, toward 1-chloro-2,4-dinitrobenzene and 5-hydroperoxyicosatetraenoic acid (5-HPETE), respectively (PubMed:12672824). {ECO:0000250|UniProtKB:Q9JM51, ECO:0000269|PubMed:10377395, ECO:0000269|PubMed:10869354, ECO:0000269|PubMed:12244105, ECO:0000269|PubMed:12460774, ECO:0000269|PubMed:12672824, ECO:0000269|PubMed:18682561}.",
+      "sequence_length": 152,
+      "subcellular_location": "SUBCELLULAR LOCATION: Membrane {ECO:0000269|PubMed:10377395, ECO:0000269|PubMed:16439136, ECO:0000269|PubMed:18682561, ECO:0000269|PubMed:27684486}; Multi-pass membrane protein {ECO:0000303|PubMed:18682561}. Cytoplasm, perinuclear region {ECO:0000269|PubMed:10869354}. Note=Colocalizes with PTGS1/COX-1 and PTGS2/COX-2 in the perinuclear compartment. {ECO:0000269|PubMed:10869354}.",
+      "pdb_structures": [
+         "3DWW",
+         "4AL0",
+         "4AL1",
+         "4BPM",
+         "4WAB",
+         "4YK5",
+         "4YL0",
+         "4YL1",
+         "4YL3",
+         "5BQG",
+         "5BQH",
+         "5BQI",
+         "5K0I",
+         "5T36",
+         "5T37",
+         "5TL9",
+         "6VL4",
+         "8PYV"
+      ]
+   },
+   "FAM53B-AS1": {
+      "gene_name": "FAM53B-AS1",
+      "tier": "tier-2",
+      "lfc_mean": 2.0634065,
+      "proba_m1": 0.726,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": null,
+      "protein_name": null,
+      "alternative_names": [],
+      "function": null,
+      "sequence_length": null,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "ENPP5": {
+      "gene_name": "ENPP5",
+      "tier": "tier-2",
+      "lfc_mean": 2.0198245,
+      "proba_m1": 0.8282,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q9UJA9",
+      "protein_name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+      "alternative_names": [
+         "E-NPP 5",
+         "NPP-5",
+         "EC 3.1.-.-"
+      ],
+      "function": "FUNCTION: Can hydrolyze NAD but cannot hydrolyze nucleotide di- and triphosphates. Lacks lysopholipase D activity. May play a role in neuronal cell communication. {ECO:0000250|UniProtKB:P84039, ECO:0000250|UniProtKB:Q9EQG7}.",
+      "sequence_length": 477,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000305}. Membrane {ECO:0000305}; Single-pass membrane protein {ECO:0000305}.",
+      "pdb_structures": [
+         "5VEM"
+      ]
+   },
+   "AK7": {
+      "gene_name": "AK7",
+      "tier": "tier-2",
+      "lfc_mean": 2.0136898,
+      "proba_m1": 0.8946,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q96M32",
+      "protein_name": "Adenylate kinase 7",
+      "alternative_names": [
+         "AK 7",
+         "EC 2.7.4.3",
+         "EC 2.7.4.6",
+         "ATP-AMP transphosphorylase 7"
+      ],
+      "function": "FUNCTION: Nucleoside monophosphate (NMP) kinase that catalyzes the reversible transfer of the terminal phosphate group between nucleoside triphosphates and monophosphates. Has highest activity toward AMP, and weaker activity toward dAMP, CMP and dCMP. Also displays broad nucleoside diphosphate kinase activity. Involved in maintaining ciliary structure and function. {ECO:0000269|PubMed:21080915, ECO:0000269|PubMed:23416111}.",
+      "sequence_length": 723,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000269|PubMed:21080915}. Cell projection, cilium, flagellum {ECO:0000269|PubMed:29365104}. Note=Detected along the full length of sperm flagellum, where it colocalizes with alpha-tubulin. {ECO:0000269|PubMed:29365104}.",
+      "pdb_structures": []
+   },
+   "MMD": {
+      "gene_name": "MMD",
+      "tier": "tier-2",
+      "lfc_mean": 1.9731,
+      "proba_m1": 0.7974,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q15546",
+      "protein_name": "Monocyte to macrophage differentiation factor",
+      "alternative_names": [
+         "Progestin and adipoQ receptor family member 11",
+         "Progestin and adipoQ receptor family member XI"
+      ],
+      "function": "FUNCTION: Involved in the dynamics of lysosomal membranes associated with microglial activation following brain lesion. {ECO:0000250}.",
+      "sequence_length": 238,
+      "subcellular_location": "SUBCELLULAR LOCATION: Late endosome membrane {ECO:0000250}; Multi-pass membrane protein {ECO:0000250}. Lysosome membrane {ECO:0000250}; Multi-pass membrane protein {ECO:0000250}.",
+      "pdb_structures": []
+   },
+   "MOB3B": {
+      "gene_name": "MOB3B",
+      "tier": "tier-2",
+      "lfc_mean": 1.9713627,
+      "proba_m1": 0.7584,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q86TA1",
+      "protein_name": "MOB kinase activator 3B",
+      "alternative_names": [
+         "Mob1 homolog 2b",
+         "Mps one binder kinase activator-like 2B",
+         "MOB kinase activator-like 2B"
+      ],
+      "function": "FUNCTION: Modulates LATS1 expression in the Hippo signaling pathway which plays a pivotal role in organ size control and tumor suppression by restricting proliferation and promoting apoptosis. {ECO:0000269|PubMed:28792927}.",
+      "sequence_length": 216,
+      "subcellular_location": null,
+      "pdb_structures": []
+   },
+   "SLC7A2": {
+      "gene_name": "SLC7A2",
+      "tier": "tier-2",
+      "lfc_mean": 1.9601018,
+      "proba_m1": 0.8216,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P52569",
+      "protein_name": "Cationic amino acid transporter 2",
+      "alternative_names": [
+         "CAT-2",
+         "CAT2",
+         "Low affinity cationic amino acid transporter 2",
+         "Solute carrier family 7 member 2"
+      ],
+      "function": "FUNCTION: Functions as a permease involved in the transport of the cationic amino acids (L-arginine, L-lysine, L-ornithine and L-homoarginine); the affinity for its substrates differs between isoforms created by alternative splicing (PubMed:28684763, PubMed:9174363). May play a role in classical or alternative activation of macrophages via its role in arginine transport (By similarity). {ECO:0000250|UniProtKB:P18581, ECO:0000269|PubMed:28684763, ECO:0000269|PubMed:9174363}.; FUNCTION: [Isoform 1]: Functions as a permease that mediates the transport of the cationic amino acids (L-arginine, L-lysine, L-ornithine and L-homoarginine). Shows a much higher affinity for L-arginine and L-homoarginine than isoform 2. {ECO:0000269|PubMed:28684763, ECO:0000269|PubMed:9174363}.; FUNCTION: [Isoform 2]: Functions as a low-affinity, high capacity permease involved in the transport of the cationic amino acids (L-arginine, L-lysine, L-ornithine and L-homoarginine). {ECO:0000269|PubMed:28684763, ECO:0000269|PubMed:9174363}.",
+      "sequence_length": 658,
+      "subcellular_location": "SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:9174363}; Multi-pass membrane protein {ECO:0000269|PubMed:9174363}.",
+      "pdb_structures": []
+   },
+   "FDX1": {
+      "gene_name": "FDX1",
+      "tier": "tier-2",
+      "lfc_mean": 1.9161719,
+      "proba_m1": 0.8428,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P10109",
+      "protein_name": "Adrenodoxin, mitochondrial",
+      "alternative_names": [
+         "Adrenal ferredoxin",
+         "Ferredoxin-1",
+         "Hepatoredoxin"
+      ],
+      "function": "FUNCTION: Essential for the synthesis of various steroid hormones (PubMed:20547883, PubMed:21636783). Participates in the reduction of mitochondrial cytochrome P450 for steroidogenesis (PubMed:20547883, PubMed:21636783). Transfers electrons from adrenodoxin reductase to CYP11A1, a cytochrome P450 that catalyzes cholesterol side-chain cleavage (PubMed:20547883, PubMed:21636783). Does not form a ternary complex with adrenodoxin reductase and CYP11A1 but shuttles between the two enzymes to transfer electrons (By similarity). {ECO:0000250|UniProtKB:P00257, ECO:0000269|PubMed:20547883, ECO:0000269|PubMed:21636783}.",
+      "sequence_length": 184,
+      "subcellular_location": "SUBCELLULAR LOCATION: Mitochondrion matrix {ECO:0000269|PubMed:20547883}.",
+      "pdb_structures": [
+         "3N9Y",
+         "3N9Z",
+         "3NA0",
+         "3NA1",
+         "3P1M",
+         "7M8I"
+      ]
+   },
+   "BMP8A": {
+      "gene_name": "BMP8A",
+      "tier": "tier-2",
+      "lfc_mean": 1.9075453,
+      "proba_m1": 0.8476,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "Q7Z5Y6",
+      "protein_name": "Bone morphogenetic protein 8A",
+      "alternative_names": [
+         "BMP-8A"
+      ],
+      "function": "FUNCTION: Induces cartilage and bone formation. May be the osteoinductive factor responsible for the phenomenon of epithelial osteogenesis. Plays a role in calcium regulation and bone homeostasis (By similarity). Signaling protein involved in regulation of thermogenesis and energy balance. Proposed to increase the peripheral response of brown adipose tissue (BAT) to adrenergic stimulation while acting centrally in the hypothalamus to increase sympathetic output to BAT. {ECO:0000250, ECO:0000269|PubMed:22579288}.; FUNCTION: Growth factor of the TGF-beta superfamily that plays important role in various biological processes, including spermatogenesis, osteogenesis, steroidogenesis as well as regulation of energy balance (PubMed:22579288, PubMed:31940275). Initiates the canonical BMP signaling cascade by associating with type I receptor BMPR1A and type II receptor BMPR2 (PubMed:31940275). Once all three components are bound together in a complex at the cell surface, BMPR2 phosphorylates and activates BMPR1A. In turn, BMPR1A propagates signal by phosphorylating SMAD1/5/8 that travel to the nucleus and act as activators and repressors of transcription of target genes. In addition, activates the SMAD2/3 pathway (PubMed:31940275). {ECO:0000269|PubMed:22579288, ECO:0000269|PubMed:31940275}.",
+      "sequence_length": 402,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000305}.",
+      "pdb_structures": []
+   },
+   "SPINT1": {
+      "gene_name": "SPINT1",
+      "tier": "tier-2",
+      "lfc_mean": 1.8455032,
+      "proba_m1": 0.8906,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "O43278",
+      "protein_name": "Kunitz-type protease inhibitor 1",
+      "alternative_names": [
+         "Hepatocyte growth factor activator inhibitor type 1",
+         "HAI-1"
+      ],
+      "function": "FUNCTION: Inhibitor of HGFAC (PubMed:9045658). Inhibits serine protease activity of ST14/matriptase in vitro (PubMed:28710277). Inhibits serine protease activity of TMPRSS13, via the BPTI/Kunitz inhibitor 1 domain (PubMed:20977675). {ECO:0000269|PubMed:20977675, ECO:0000269|PubMed:28710277, ECO:0000269|PubMed:9045658}.",
+      "sequence_length": 529,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:9045658}. Cytoplasm {ECO:0000269|PubMed:28710277}. Cell membrane {ECO:0000269|PubMed:28710277}.",
+      "pdb_structures": [
+         "1YC0",
+         "2MSX",
+         "4ISL",
+         "4ISN",
+         "4ISO",
+         "5EZD",
+         "5H7V"
+      ]
+   },
+   "ADAMTS3": {
+      "gene_name": "ADAMTS3",
+      "tier": "tier-2",
+      "lfc_mean": 1.8429637,
+      "proba_m1": 0.8682,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "O15072",
+      "protein_name": "A disintegrin and metalloproteinase with thrombospondin motifs 3",
+      "alternative_names": [
+         "ADAM-TS 3",
+         "ADAM-TS3",
+         "ADAMTS-3",
+         "EC 3.4.24.-",
+         "Procollagen II N-proteinase",
+         "PC II-NP",
+         "Procollagen II amino propeptide-processing enzyme"
+      ],
+      "function": "FUNCTION: Cleaves the propeptides of type II collagen prior to fibril assembly. Does not act on types I and III collagens.",
+      "sequence_length": 1205,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:28985353}. Secreted, extracellular space, extracellular matrix {ECO:0000250}.",
+      "pdb_structures": []
+   },
+   "HTRA3": {
+      "gene_name": "HTRA3",
+      "tier": "tier-2",
+      "lfc_mean": 1.8161712,
+      "proba_m1": 0.6168,
+      "scenario": "unknown",
+      "regulating_tf": null,
+      "soldier_genes": [],
+      "uniprot_id": "P83110",
+      "protein_name": "Serine protease HTRA3",
+      "alternative_names": [
+         "EC 3.4.21.-",
+         "High-temperature requirement factor A3",
+         "Pregnancy-related serine protease"
+      ],
+      "function": "FUNCTION: Serine protease that cleaves beta-casein/CSN2 as well as several extracellular matrix (ECM) proteoglycans such as decorin/DCN, biglycan/BGN and fibronectin/FN1. Inhibits signaling mediated by TGF-beta family proteins possibly indirectly by degradation of these ECM proteoglycans (By similarity). May act as a tumor suppressor. Negatively regulates, in vitro, trophoblast invasion during placental development and may be involved in the development of the placenta in vivo. May also have a role in ovarian development, granulosa cell differentiation and luteinization (PubMed:21321049, PubMed:22229724). {ECO:0000250|UniProtKB:Q9D236, ECO:0000269|PubMed:21321049, ECO:0000269|PubMed:22229724}.",
+      "sequence_length": 453,
+      "subcellular_location": "SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:21321049}. Note=Secretion increased during decidualization of endometrial stromal cells.",
+      "pdb_structures": [
+         "2P3W",
+         "4RI0"
+      ]
+   },
+   "AREG": {
+      "gene_name": "AREG",
+      "tier": "tier-2",
+      "lfc_mean": 1.7926718,
+      "proba_m1": 0.6184,
+      "scenario": "A",
+      "regulating_tf": "SP1",
+      "soldier_genes": [
+         {
+            "gene_name": "KRT19",
+            "uniprot_id": "P08727",
+            "protein_name": "Keratin, type I cytoskeletal 19",
+            "alternative_names": [
+               "Cytokeratin-19",
+               "CK-19",
+               "Keratin-19",
+               "K19"
+            ],
+            "sequence_length": 400,
+            "pdb_structures": [
+               "8XTN",
+               "8XTO",
+               "8Y3S",
+               "8ZG2",
+               "8ZG3",
+               "8ZG4",
+               "8ZP3",
+               "8ZUG"
+            ]
+         },
+         {
+            "gene_name": "LDLR",
+            "uniprot_id": "P01130",
+            "protein_name": "Low-density lipoprotein receptor",
+            "alternative_names": [
+               "LDL receptor"
+            ],
+            "sequence_length": 860,
+            "pdb_structures": [
+               "1AJJ",
+               "1D2J",
+               "1F5Y",
+               "1F8Z",
+               "1HJ7",
+               "1HZ8",
+               "1I0U",
+               "1IJQ",
+               "1LDL",
+               "1LDR",
+               "1N7D",
+               "1XFE",
+               "2FCW",
+               "2KRI",
+               "2LGP",
+               "2M7P",
+               "2MG9",
+               "2W2M",
+               "2W2N",
+               "2W2O",
+               "2W2P",
+               "2W2Q",
+               "3BPS",
+               "3GCW",
+               "3GCX",
+               "3M0C",
+               "3P5B",
+               "3P5C",
+               "3SO6",
+               "4NE9",
+               "5OY9",
+               "5OYL",
+               "9BD8",
+               "9BDE",
+               "9BDT",
+               "9COO"
+            ]
+         },
+         {
+            "gene_name": "MNDA",
+            "uniprot_id": "P41218",
+            "protein_name": "Myeloid cell nuclear differentiation antigen",
+            "alternative_names": [],
+            "sequence_length": 407,
+            "pdb_structures": [
+               "2DBG",
+               "5H7Q",
+               "5WPZ",
+               "8I6K"
+            ]
+         },
+         {
+            "gene_name": "MME",
+            "uniprot_id": "P08473",
+            "protein_name": "Neprilysin",
+            "alternative_names": [
+               "EC 3.4.24.11",
+               "Atriopeptidase",
+               "Common acute lymphocytic leukemia antigen",
+               "CALLA",
+               "Enkephalinase",
+               "Neutral endopeptidase 24.11",
+               "NEP",
+               "Neutral endopeptidase",
+               "Skin fibroblast elastase",
+               "SFE",
+               "CD antigen CD10"
+            ],
+            "sequence_length": 750,
+            "pdb_structures": [
+               "1DMT",
+               "1R1H",
+               "1R1I",
+               "1R1J",
+               "1Y8J",
+               "2QPJ",
+               "2YB9",
+               "4CTH",
+               "5JMY",
+               "6GID",
+               "6SH1",
+               "6SH2",
+               "6SUK",
+               "6SVY",
+               "6THP",
+               "6XVP"
+            ]
+         },
+         {
+            "gene_name": "MCTS1",
+            "uniprot_id": "Q9ULC4",
+            "protein_name": "Malignant T-cell-amplified sequence 1",
+            "alternative_names": [
+               "MCT-1",
+               "Multiple copies T-cell malignancies"
+            ],
+            "sequence_length": 181,
+            "pdb_structures": [
+               "3R90",
+               "5ONS",
+               "5VYC",
+               "6MS4"
+            ]
+         },
+         {
+            "gene_name": "MAT2B",
+            "uniprot_id": "Q9NZL9",
+            "protein_name": "Methionine adenosyltransferase 2 subunit beta",
+            "alternative_names": [
+               "Methionine adenosyltransferase II beta",
+               "MAT II beta",
+               "Putative dTDP-4-keto-6-deoxy-D-glucose 4-reductase"
+            ],
+            "sequence_length": 334,
+            "pdb_structures": [
+               "2YDX",
+               "2YDY",
+               "4KTT",
+               "4KTV",
+               "4NDN"
+            ]
+         },
+         {
+            "gene_name": "KRT5",
+            "uniprot_id": "P13647",
+            "protein_name": "Keratin, type II cytoskeletal 5",
+            "alternative_names": [
+               "58 kDa cytokeratin",
+               "Cytokeratin-5",
+               "CK-5",
+               "Keratin-5",
+               "K5",
+               "Type-II keratin Kb5"
+            ],
+            "sequence_length": 590,
+            "pdb_structures": [
+               "3TNU",
+               "6JFV"
+            ]
+         },
+         {
+            "gene_name": "IMPDH2",
+            "uniprot_id": "P12268",
+            "protein_name": "Inosine-5'-monophosphate dehydrogenase 2",
+            "alternative_names": [
+               "IMP dehydrogenase 2",
+               "IMPD 2",
+               "IMPDH 2",
+               "EC 1.1.1.205",
+               "Inosine-5'-monophosphate dehydrogenase type II",
+               "IMP dehydrogenase II",
+               "IMPDH-II"
+            ],
+            "sequence_length": 514,
+            "pdb_structures": [
+               "1B3O",
+               "1NF7",
+               "1NFB",
+               "6I0M",
+               "6I0O",
+               "6U8E",
+               "6U8N",
+               "6U8R",
+               "6U8S",
+               "6U9O",
+               "6UA2",
+               "6UA4",
+               "6UA5",
+               "6UAJ",
+               "6UC2",
+               "6UDO",
+               "6UDP",
+               "6UDQ",
+               "8FOZ",
+               "8FUZ",
+               "8G8F",
+               "8G9B",
+               "9DMU"
+            ]
+         },
+         {
+            "gene_name": "HTR1A",
+            "uniprot_id": "P08908",
+            "protein_name": "5-hydroxytryptamine receptor 1A",
+            "alternative_names": [
+               "5-HT-1A",
+               "5-HT1A",
+               "G-21",
+               "Serotonin receptor 1A"
+            ],
+            "sequence_length": 422,
+            "pdb_structures": [
+               "7E2X",
+               "7E2Y",
+               "7E2Z",
+               "8FY8",
+               "8FYE",
+               "8FYL",
+               "8FYT",
+               "8FYX",
+               "8JSP",
+               "8JT6",
+               "8PJK",
+               "8PKM",
+               "8W8B",
+               "9DYD",
+               "9DYE",
+               "9DYF",
+               "9GL2",
+               "9MD1"
+            ]
+         },
+         {
+            "gene_name": "HSD17B1",
+            "uniprot_id": "P14061",
+            "protein_name": "17-beta-hydroxysteroid dehydrogenase type 1",
+            "alternative_names": [
+               "17-beta-HSD 1",
+               "EC 1.1.1.51",
+               "20 alpha-hydroxysteroid dehydrogenase",
+               "20-alpha-HSD",
+               "E2DH",
+               "Estradiol 17-beta-dehydrogenase 1",
+               "EC 1.1.1.62",
+               "Placental 17-beta-hydroxysteroid dehydrogenase",
+               "Short chain dehydrogenase/reductase family 28C member 1"
+            ],
+            "sequence_length": 328,
+            "pdb_structures": [
+               "1A27",
+               "1BHS",
+               "1DHT",
+               "1EQU",
+               "1FDS",
+               "1FDT",
+               "1FDU",
+               "1FDV",
+               "1FDW",
+               "1I5R",
+               "1IOL",
+               "1JTV",
+               "1QYV",
+               "1QYW",
+               "1QYX",
+               "3DEY",
+               "3DHE",
+               "3HB4",
+               "3HB5",
+               "3KLM",
+               "3KLP",
+               "3KM0",
+               "6CGC",
+               "6CGE",
+               "6DTP",
+               "6MNC",
+               "6MNE",
+               "7X3Z"
+            ]
+         }
+      ],
+      "uniprot_id": "P15514",
+      "protein_name": "Amphiregulin",
+      "alternative_names": [
+         "AR",
+         "Colorectum cell-derived growth factor",
+         "CRDGF"
+      ],
+      "function": "FUNCTION: Ligand of the EGF receptor/EGFR. Autocrine growth factor as well as a mitogen for a broad range of target cells including astrocytes, Schwann cells and fibroblasts.",
+      "sequence_length": 252,
+      "subcellular_location": "SUBCELLULAR LOCATION: Membrane; Single-pass membrane protein.",
+      "pdb_structures": [
+         "2RNL"
+      ]
+   }
+}

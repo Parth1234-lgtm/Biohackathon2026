@@ -1,0 +1,68 @@
+# ==========================================
+# 🛑 VIRTUAL ENVIRONMENTS & DEPENDENCIES
+# ==========================================
+.venv/
+venv/
+node_modules/   
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+env/
+ENV/
+bin/
+lib/
+include/
+
+# ==========================================
+# 🔒 SENSITIVE SECRETS & ENVIRONMENT KEYS
+# ==========================================
+.env
+.env.local
+.env.*
+*.env
+secrets.json
+
+# ==========================================
+# 🐍 PYTHON SYSTEM CACHING
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# 📊 HEAVY ANNDATA & DATASETS (HACKATHON SCRAP)
+# ==========================================
+# Ignores large single-cell biology files and backup sheets
+*.h5ad
+*.csv
+*.xlsx
+*.tsv
+# EXCEPTION: Allow the final lookup file to be tracked so your backend runs!
+!backend/models/final_look_up.json
+
+# ==========================================
+# 🤖 TRAINED ML MODELS & CHECKPOINTS
+# ==========================================
+# Ignores local scvi_models and pipeline serialization files
+scvi_model/
+*.pkl
+*.h5
+
+# ==========================================
+# 🎨 IMAGES & SCREENSHOTS (DOCUMENTATION ONLY)
+# ==========================================
+*.png
+*.jpg
+*.jpeg
+*.gif
+# EXCEPTION: If you want to keep architecture diagrams in an images folder later
+!docs/images/
+
+# ==========================================
+# 💻 OS-SPECIFIC SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
