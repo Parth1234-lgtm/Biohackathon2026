@@ -70,7 +70,6 @@ legacy-api-wrap==1.5
 legendkit==0.4.1
 lightning==2.6.1
 lightning-utilities==0.15.3
-line_profiler==4.2.0
 llvmlite==0.47.0
 lxml==5.4.0
 Markdown==3.10.2
