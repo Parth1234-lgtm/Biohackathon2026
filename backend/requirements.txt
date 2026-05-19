@@ -29,7 +29,6 @@ decoupler==2.1.6
 distro==1.9.0
 docrep==0.3.2
 donfig==0.8.1.post1
-easydev==0.13.3
 executing==2.2.1
 fastapi==0.136.1
 filelock==3.29.0
