@@ -1,4 +1,3 @@
-[README (3).md](https://github.com/user-attachments/files/28140103/README.3.md)
 # PCOS Diagnostic Tool — scRNA-seq Powered Blood Test Analysis
 
 > **Diagnosing PCOS from a cheap blood test, backed by single-cell RNA sequencing of ovarian theca cells.**
