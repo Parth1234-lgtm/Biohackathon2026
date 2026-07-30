@@ -3,7 +3,10 @@
 > **Diagnosing PCOS from a cheap blood test, backed by single-cell RNA sequencing of ovarian theca cells.**
 
 ---
-## [LIVE DEMO LINK](https://biohackathon2026.vercel.app/)
+<p align="center">
+  ## LIVE DEMO LINK: <a href="https://vercel.app">https://vercel.app</a>
+</p>
+
 
 
 ## The Problem
