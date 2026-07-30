@@ -3,7 +3,9 @@
 > **Diagnosing PCOS from a cheap blood test, backed by single-cell RNA sequencing of ovarian theca cells.**
 
 ---
-## LIVE DEMO LINK: [https://biohackathon2026.vercel.app/]([url](https://biohackathon2026.vercel.app/))
+## [LIVE DEMO LINK](https://biohackathon2026.vercel.app/)
+
+
 ## The Problem
 
 Polycystic Ovary Syndrome (PCOS) affects 8–13% of reproductive-age women globally, yet up to 70% remain undiagnosed. Current diagnosis requires expensive transvaginal ultrasounds, hormonal panels, and sometimes ovarian biopsies — tools that are inaccessible in most primary care and rural clinic settings.
